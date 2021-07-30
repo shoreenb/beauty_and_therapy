@@ -1,0 +1,1543 @@
+[{
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6001340155",
+            "name": "Bulgari Man In Black Eau de Parfum",
+            "description": "This neo-oriental Eau de Parfum is a perfect blend of contrasts. Top notes of rum, cardamom and cinnamon provide a vibrant addictiveness, whilst the leathery floral heart of tuberose contributes to the sophistication of the fragrance.",
+            "has_options": false,
+            "price": 80.00,
+            "category": 5,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "media/products/body/man.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6001600425",
+            "name": "Paco Rabanne 1 Million Deodorant Stick",
+            "description": "This Deodorant Stick is infused with the scent of 1 Million with top notes of: Blood Mandarin, Mint, Grapefruit, middle notes of: Spicy Notes, Cinnamon, Rose and base notes of: Indian Patchouli, Amber, Woody Notes, Leather.",
+            "has_options": false,
+            "price": 17.90,
+            "category": 5,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "media/products/body/mill.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6001730010",
+            "name": "Innisfree Perfect UV Protection Cream SPF 50+",
+            "description": "A multifunctional UV protection cream that is non-sticky and longlasting, suitable for long hours spent outdoors.",
+            "has_options": false,
+            "price": 25.99,
+            "category": 5,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "media/products/body/spf.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6001890157",
+            "name": "Aigner Eyeliner",
+            "description": "This long-lasting, super-saturated eyeliner glides on effortlessly. It stays blendable for a few seconds so you have playtime to create limitless looks.",
+            "has_options": true,
+            "price": 3.99,
+            "category": 2,
+            "rating": 3.0,
+            "image_url": "",
+            "image": "media/products/eyes/eyeliner.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6002111605",
+            "name": "Focallure Eyeshadow",
+            "description": "These carefully curated shades are studded with easy-to-use combinations. The flattering mattes and shimmer-drenched hues，are the best of both worlds. Packed full of pigment, these highly pigmented matte and shimmer shades compliment all skin tones.",
+            "has_options": true,
+            "price": 23.99,
+            "category": 2,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/products/eyes/eyeshad.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6002260206",
+            "name": "YSL Eyeshadow",
+            "description": "10-Colour gradient eye palette inspired by the fabric swatch sheets of Yves Saint Laurent’ s creative studio, each palette reveals an gradient variations of a single YSL color.",
+            "has_options": false,
+            "price": 39.99,
+            "category": 2,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "media/products/eyes/smoky.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6002440521",
+            "name": "Wardah Acne Treatment Gel",
+            "description": "Introducing the perfect product to get rid of your acne quickly",
+            "has_options": false,
+            "price": 5.90,
+            "category": 3,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "media/products/face/acne-gel.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6002601115",
+            "name": "Safi Age Defy Renewal Night Cream",
+            "description": "Safi Age Defy Renewal Night Cream is a non-sticky cream-gel that contains Gold Extract, Silk Protein, and Phyto-SLC.",
+            "has_options": false,
+            "price": 13.99,
+            "category": 3,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "media/products/face/age-night.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6002690715",
+            "name": "City Color All-In-One Cream Palette",
+            "description": "The All-In-One Cream Palette brings together all the products you need to create a perfect canvas for your makeup.The Corrector covers imperfections and discoloration, the Highlighter adds shine and Contour for shading.",
+            "has_options": false,
+            "price": 16.99,
+            "category": 32,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "media/products/face/all-in-one.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6002701115",
+            "name": "Anastasia Foundation Stick",
+            "description": "Full-pigment cream sticks for contouring and highlighting that deliver a natural-looking matte finish with buildable coverage.",
+            "has_options": false,
+            "price": 23.99,
+            "category": 3,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "media/products/face/ana-stick.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6002761055",
+            "name": "Moreskin Anti Acne Cream",
+            "description": "MORESKIN Anti Acne consists of quality natural ingredients and contains Salicylic acid and centella asiatica extract which can help get rid of acne on the skin.",
+            "has_options": false,
+            "price": 9.99,
+            "category": 3,
+            "rating": 3.0,
+            "image_url": "",
+            "image": "media/products/face/antiacne.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6002820069",
+            "name": "Bioré Deep Pore Charcoal Cleanser",
+            "description": "Bioré Deep Pore Charcoal Cleanser draws out and traps double the dirt and impurities of a basic cleanser. This innovative black cleanser that foams white and rinses clean is infused with Japanese Skin Purifying Technology and is oil-free, dermatologist tested and gentle enough for daily use.",
+            "has_options": false,
+            "price": 9.99,
+            "category": 3,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "media/products/face/biore-cleanse.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6002820147",
+            "name": "Innisfree Blur Powder",
+            "description": "This powder is formulated with mild ingredients to create a silky smooth makeup finish with its pore-blurring effect suitable even for acne-prone skin.",
+            "has_options": false,
+            "price": 20.00,
+            "category": 3,
+            "rating": 3.2,
+            "image_url": "",
+            "image": "media/products/face/blur.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6002910572",
+            "name": "Jordana Powder Blush",
+            "description": "Powder Blush by Jordana Cosmetics USA in the shade Coral Sandy Beach; Gold Tone, Peachy Pink, pearl blush powder Made in the USA",
+            "has_options": true,
+            "price": 26.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "media/products/face/blush.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6002990740",
+            "name": "Rimmel London Natural Bronzer",
+            "description": "This product can be used to create a sun-kissed skin finish or to contour your angles. This bronzer is dreamy, velvety and easy to blend. Sweep Natural Bronzer Waterproof Bronzing Powder onto cheekbones to instantly warm up your complexion and sculpt your features.",
+            "has_options": false,
+            "price": 18.99,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "media/products/face/bronzer.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003050248",
+            "name": "Maybelline Brow Drama Pomade Crayon",
+            "description": "This New Brow Crayon fills in and fixes brows in a New York minute! The new Brow Crayons sculpts, tames and colours brows when filling in any sparse areas with short, feathery strokes. Sketch in the same direction your brow hairs naturally grow.",
+            "has_options": false,
+            "price": 5.99,
+            "category": 3,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "media/products/face/brow-crayon.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003070787",
+            "name": "Colourpop Brow Pencil",
+            "description": "Micro-tip precision and a long-wearing soft and creamy formula for sculpted definition in one little pencil.",
+            "has_options": true,
+            "price": 8.99,
+            "category": 3,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "media/products/face/brow-pencil.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003090182",
+            "name": "Maybelline Fashion Brow Palette",
+            "description": "Maybelline's first ever nose and brow contouring palette to contour your nose and shape your brows to perfection",
+            "has_options": false,
+            "price": 19.99,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "media/products/face/brow-powder.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003090186",
+            "name": "Chanel Healthy Glow Foundation SPF 25",
+            "description": "This innovative foundation can be used on either bare skin or over existing makeup. Its ultra-fine and fresh texture naturally lights up the face.",
+            "has_options": false,
+            "price": 16.99,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/products/face/chanel-foundation.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003161326",
+            "name": "City Color Illuminating Powder",
+            "description": "Add a glow to your face with this easy to use, highlighting powder that is super easy to blend.",
+            "has_options": false,
+            "price": 12.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "media/products/face/city-illum.jpg"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003230723",
+            "name": "City Color Oil-Control Primer Spray",
+            "description": "Control oil, smudging, and uneven makeup with this Oil Control Primer Spray. Use the refreshing cucumber-scented spray as your primer base before applying makeup for easier application and to set your look all day!",
+            "has_options": false,
+            "price": 16.99,
+            "category": 3,
+            "rating": 4.3,
+            "image_url": "",
+            "image": "media/products/face/city-primer.jpg"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003270936",
+            "name": "Innisfree Green Tea Cleansing Foam",
+            "description": "This dense, rich foam washes off makeup residue and dirt from inside pores, leaving skin feeling clean and refreshed. It uses fresh green tea extracted from organically grown green tea leaves, which is rich in amino acids and minerals that moisturises and brightens skin that has become dehydrated.",
+            "has_options": false,
+            "price": 6.99,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/products/face/cleanse-foam.jpg"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003360384",
+            "name": "Innisfree Green Tea Fresh Cleansing Oil",
+            "description": "This refreshing cleansing oil enriched with Green Tea removes even the heaviest makeup.",
+            "has_options": false,
+            "price": 9.99,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "media/products/face/cleanse-oil.jpg"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003440111",
+            "name": "Clinique Beyond Perfecting Foundation & Concealer",
+            "description": "This liquid foundation and concealer is a full coverage makeup that provides a two-in-one solution for truly flawless looking skin. It covers and conceals with ease and the multi-faceted “Magic Wand” applicator allows for easy, airbrushed application — either all over the face or in targeted areas. It is suitable for all skins, and mature skins who want fuller coverage.",
+            "has_options": false,
+            "price": 18.00,
+            "category": 3,
+            "rating": 3.8,
+            "image_url": "",
+            "image": "media/products/face/clinique-conceal.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003540313",
+            "name": "City Color Contour & Correct Cream Palette",
+            "description": "This all-in one Contour and Correct Cream Palette allows you to seamlessly sculpt, contour and correct any color imperfections.",
+            "has_options": false,
+            "price": 16.99,
+            "category": 3,
+            "rating": 3.0,
+            "image_url": "",
+            "image": "media/products/face/cont-corr.jpg"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003560513",
+            "name": "Highlight & Contour Stick",
+            "description": "Amplify your look with this all-purpose stick that has a creamy finish that conceals, highlights and contours with ease. It is available in 4 different shade combinations to fit every skin tone, including one universal shade.",
+            "has_options": false,
+            "price": 11.99,
+            "category": 3,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "media/products/face/cont-stick.jpg"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003560948",
+            "name": "Olay Total Effects 7-In-1 Day Cream",
+            "description": "This multitasking moisturiser delivers on 7 skin benefits in one simple step: it hydrates, boosts glow, evens skin tone appearance, minimises the look of pores, smooths & plumps, reduces the look of fine lines & wrinkkles and provides environmental protection.",
+            "has_options": false,
+            "price": 23.99,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/products/face/day-cream.jpg"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003570628",
+            "name": "Erto's Why Acne Facial Wash",
+            "description": "Cleanses acne-prone skin from dirt, dust and make-up residue. Its anti-acne content treats acne-prone skin.",
+            "has_options": false,
+            "price": 8.99,
+            "category": 3,
+            "rating": 4.3,
+            "image_url": "",
+            "image": "media/products/face/facewash.jpg"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003620308",
+            "name": "Skinfood Multi Finish Powder",
+            "description": "This ultra-fine, finishing powder sets foundation to give skin a flawless, air-brushed finish. Micro-silica powder absorbs oil and sweat for a fresh, matte appearance all day long, without the need for constant retouching. Peach and sake extracts soothe and comfort sensitive skin, preventing further irritation and inflammation. Suitable for oily and acne prone skin types.",
+            "has_options": false,
+            "price": 31.99,
+            "category": 3,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "media/products/face/finish.jpg"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003690115",
+            "name": "Focallure Face Highlighter",
+            "description": "This beginner friendly product blends out really easy and has a natural skin-like finish to it. The natural-looking matte finish makes this highlighter perfect for face and body alike. It's so much more realistic than a powder as it enhances and illuminates the complexion. Its multi - dimensional buildable color is water - proof and long - lasting.",
+            "has_options": false,
+            "price": 22.99,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/products/face/foc-high.jpg"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003690116",
+            "name": "Fresh Herb Origin Serum",
+            "description": "Prevent the formation of premature wrinkles, minimize pores, brighten dullness and treat skin troubles with this antioxidant-enriched serum. Made with a bi-phase oil-essence formula, it creates a tingling sensation when applied onto damaged, oxidized skin - the greater the damage, the more it tingles, but the sensation diminishes as your skin heals over time.",
+            "has_options": false,
+            "price": 29.99,
+            "category": 3,
+            "rating": 4.0,
+            "image_url": "",
+            "image": "media/products/face/fresh-serum.jpg"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003790542",
+            "name": "Wet n Wild Megaglo Highlighting Powder",
+            "description": "Shimmer and shine with this ultra-pearly finish and easy-to-blend formula, which makes it a fan favorite! The silky smooth, highly-pigmented powder gives an all over glow when applied to the cheek bones, brow bone, and cupid's bow.",
+            "has_options": false,
+            "price": 5.99,
+            "category": 3,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "media/products/face/highlight.jpg"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003831225",
+            "name": "BioAqua Silky Soft Honey Powder",
+            "description": "This powder helps to hide skin imperfections. The powder is light as a feather and has a silky texture that blends well with skin. It is easy to apply and has a natural finish.",
+            "has_options": false,
+            "price": 13.99,
+            "category": 3,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "media/products/face/honey.jpg"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003861402",
+            "name": "Himalaya Herbals Oil Control Lemon Face Wash",
+            "description": "Himalaya’s Oil Control Lemon Face Wash is a soap-free, herbal formulation that gently cleanses your face and removes excess oil. Blended with Lemon, an astringent and cooling agent, and Honey, which has natural, deep cleansing properties, the face wash leaves your skin clean without feeling dry and stretched.",
+            "has_options": false,
+            "price": 5.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "media/products/face/lemon-face.jpg"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003910638",
+            "name": "Catrice Cosmetics HD Liquid Coverage Foundation",
+            "description": "Catrice's HD Liquid Coverage Foundation is an ultra-lightweight, high coverage foundation for a natural looking finish. It Covers imperfections and mattifies the skin creating a smooth and even complexion for up to 24 hours",
+            "has_options": true,
+            "price": 23.99,
+            "category": 3,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "media/products/face/liquid-foundation.jpg"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003950574",
+            "name": "Make Over Powder",
+            "description": "A powder foundation with 10 hour-staying power and a perfect soft-matte finish. Its Microfine Color-Rich Pigment Technology and Fade-Resistant formula allows makeup to stay put and seamlessly blend with skin giving soft matte perfection. SPF 15 PA++ to protect skin from UVA/UVB",
+            "has_options": true,
+            "price": 21.99,
+            "category": 3,
+            "rating": 4.0,
+            "image_url": "",
+            "image": "media/products/face/make-powder.jpg"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003950576",
+            "name": "Maybelline Dream Matte Mousse Foundation",
+            "description": "This long-lasting and lightweight foundation leaves skin looking smooth, flawless and with a matte finish.",
+            "has_options": false,
+            "price": 16.99,
+            "category": 3,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "media/products/face/matte-mousse.jpg"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003960062",
+            "name": "Rimmel London Stay Matte Pressed Powder",
+            "description": "This skin-mattifying, shine-controlling powder lets you say goodbye to midday shine in the sweep of a brush. Dust onto oily t-zones, set makeup and achieve a soft-focus finish with this all-in-one wonder product that gives up to 5 hours of wear and glides over pores and imperfections.",
+            "has_options": false,
+            "price": 14.99,
+            "category": 3,
+            "rating": 3.8,
+            "image_url": "",
+            "image": "media/products/face/matte-powder.jpg"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003960682",
+            "name": "Maybelline Master Strobing Stick Illuminating Highlighter",
+            "description": "This creamy formula is here to help you put your fiercest face forward by adding dimension, opening your eyes and even slimming your face. Apply targeted highlighting in seconds and discover how easy it is to add an eye-catching glow.",
+            "has_options": false,
+            "price": 11.99,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/products/face/may-high.jpg"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003960775",
+            "name": "Milani Baked Blush",
+            "description": "A pigmented packed powder blush that when applied to the apples of the cheeks gives a sheer wash of soft colour for a naturally flushed complexion. Baked on Italian terracotta, the powder is incredibly finely milled for a silky application. Housed in a gold mirrored compact with a travel size brush, on the go glow is at your fingertips.",
+            "has_options": true,
+            "price": 13.99,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/products/face/milani-blush.jpg"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003990736",
+            "name": "Innisfree Mineral Powder",
+            "description": "Innisfree Mineral Powder soaks up excess oil to keep skin matte and smooth all day.",
+            "has_options": false,
+            "price": 18.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "media/products/face/mineral.jpg"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6003990746",
+            "name": "Wardah Nature Daily Hydramild Moisturizer Cream",
+            "description": "Provides moisture needed by the skin with a pH balanced formula. Contains Olive Oil, as well as vitamin E as an antioxidant which makes skin look healthier.",
+            "has_options": false,
+            "price": 5.99,
+            "category": 3,
+            "rating": 4.0,
+            "image_url": "",
+            "image": "media/products/face/moisturiser.jpg"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6004111503",
+            "name": "Erto's Why Acne Night Treatment",
+            "description": "This night cream is specially formulated for acne problems. The active ingredients in this product have been chosen to prevent skin irritation, dry out acne and reduce inflammation on the face",
+            "has_options": false,
+            "price": 16.99,
+            "category": 3,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "media/products/face/night.jpg"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6004230059",
+            "name": "Nyx Duo Chromatic Illuminating Powder",
+            "description": "This silky Powder, which is available in five glowing shades, blends like a dream and lights up your features for a fresh-faced look. The formulas light-catching pearls deliver a luminous finish that looks different from every angle. Brush this illuminating wonder along the highest points of the face—such as the cheekbones, bridge of the nose and Cupid’s bow.",
+            "has_options": true,
+            "price": 14.00,
+            "category": 3,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "media/products/face/nyx-illum.jpg"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6004310089",
+            "name": "Nyx HD Finishing Powder",
+            "description": "A lightweight translucent finishing powder that helps soften the appearance of fine lines and pores. This silky pressed powder has a fresh matte finish.",
+            "has_options": true,
+            "price": 16.99,
+            "category": 3,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "media/products/face/nyx-powder.jpg"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6004610254",
+            "name": "Nyx Away We Glow Liquid Highlighter",
+            "description": "This liquid highlighter has a light-reflecting formula that comes in wonderfully creamy yet lightweight shades. Create a glow that has irresistible illumination plus a shimmery finish. From soft to intense, the lighting you love most is totally buildable. Just dab and blend to add luminosity to any look.",
+            "has_options": true,
+            "price": 5.99,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/products/face/nyx-high.jpg"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6004650050",
+            "name": "Paula's Choice Suncare Sunscreen SPF 50",
+            "description": "This broad-spectrum, antioxidant-rich sunscreen has a non-greasy, silky texture that feels weightless on the skin whilst leaving a matte finish. The water-resistant formula is designed for use on the face or body and it is perfect for outdoor activities.",
+            "has_options": false,
+            "price": 34.99,
+            "category": 3,
+            "rating": 3.0,
+            "image_url": "",
+            "image": "media/products/face/p-spf50.jpg"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6004821375",
+            "name": "Radiance Gommage Peeling Gel",
+            "description": "This natural exfoliating gel with fruit acids and Green Tea Extract, refines the skin with a gentle 'peeling' action so that the complexion is left radiant and smooth.",
+            "has_options": false,
+            "price": 35.00,
+            "category": 3,
+            "rating": 4.0,
+            "image_url": "",
+            "image": "media/products/face/peel.jpg"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6004900522",
+            "name": "Nyx Pore Filler",
+            "description": "A perfect pre-foundation basecoat, this talc-free, oil-free formulation smoothes and enhances the look of your skin. The appearance of your pores are reduced by using this Pore Filler.",
+            "has_options": false,
+            "price": 26.99,
+            "category": 3,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "media/products/face/pore-fill.jpg"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6004910158",
+            "name": "Milani SPF 30 Face Primer",
+            "description": "This lightweight lotion formula with broad spectrum SPF 30 sunscreen helps protect skin while smoothing skin and extending makeup wear on all skin types. Lightweight and fast-absorbing with moisture-rich Glycerin and Vitamin E ,  glides on seamlessly and is perfect for everyday wear.",
+            "has_options": false,
+            "price": 19.99,
+            "category": 3,
+            "rating": 3.8,
+            "image_url": "",
+            "image": "media/products/face/primer.jpg"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6004910477",
+            "name": "Focallure Rainbow Highlighter",
+            "description": "This rainbow highlighter is the go-to professional eye shadow palette. There are 6 shades with a great mix of shimmer and experimental shades to create any look and play with, for amazing performance and value. Perfect for any special occasion from a wedding to a night out.",
+            "has_options": false,
+            "price": 18.99,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/products/face/rainbow.jpg"
+        }
+    },
+    {
+        "pk": 52,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6004940703",
+            "name": "Revolution Ultra Cream Contour Palette",
+            "description": "The ULTRA CREAM CONTOUR PALETTE has 8 creams for perfect contouring, defining and sculpting. Assembled in a large palette with FULL SIZE mirror.",
+            "has_options": false,
+            "price": 9.99,
+            "category": 3,
+            "rating": 3.7,
+            "image_url": "",
+            "image": "media/products/face/rev-cont.jpg"
+        }
+    },
+    {
+        "pk": 53,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6004991006",
+            "name": "Revolution HD Pro Powder Contour",
+            "description": "Available in powder and cream formula this HD Pro cream contour palette sculpts, defines and enhances your features.  The cream contour palettes are great for a natural finish. A mix of highlight, contour and bronzing shades in warm and cool undertones so you can find the shades to suit you. Long wearing, highly pigmented and creamy formula.",
+            "has_options": false,
+            "price": 6.99,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/products/face/revcontour.jpg"
+        }
+    },
+    {
+        "pk": 54,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6004991162",
+            "name": "Innisfree The Green Tea Seed Serum",
+            "description": "Derived from green tea water and seed oil, the Green Tea Seed Serum helps to strengthen your skin’s barrier and retain moisture within your skin, for a clear and dewy complexion.",
+            "has_options": false,
+            "price": 28.99,
+            "category": 3,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "media/products/face/serum.jpg"
+        }
+    },
+    {
+        "pk": 55,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005000046",
+            "name": "Wet n Wild Photo Focus Setting Spray",
+            "description": "Creasing and cracking is a thing of the past with this setting spray that’ll seal the deal on your fresh - faced makeup application. Featuring Aloe Vera, a little spritz of this hydrating formula gives you a naturally dewy look and keeps your makeup in place all day.",
+            "has_options": false,
+            "price": 15.99,
+            "category": 3,
+            "rating": 3.9,
+            "image_url": "",
+            "image": "media/products/face/set-spray.jpg"
+        }
+    },
+    {
+        "pk": 56,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005070254",
+            "name": "Emina Sun Protection SPF 30",
+            "description": "Sun Protection with SPF 30 and a light-feel to help keep your skin protected. Enriched with Aloe Vera extract and Emollient to keep your skin hydrated.",
+            "has_options": false,
+            "price": 46.00,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "media/products/face/spf30.jpg"
+        }
+    },
+    {
+        "pk": 57,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005071145",
+            "name": "THE SAEM Cover Perfection Tip Concealer",
+            "description": "This silky lightweight concealer creates the ultimate flawless natural base. Infused with oxygen complex and glacier water to keep skin moisturised along with a reflective powder to give skin a natural and healthy glow.",
+            "has_options": true,
+            "price": 6.00,
+            "category": 3,
+            "rating": 3.3,
+            "image_url": "",
+            "image": "media/products/face/tip-conceal.jpg"
+        }
+    },
+    {
+        "pk": 58,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005140282",
+            "name": "Fresh Herb Toner",
+            "description": "A multi-purpose toner with calendula floral water, which removes all traces of makeup and remnants while smoothing out skin texture. Containing active antioxidants, it helps you combat ageing sign and soothe skin effortlessly.",
+            "has_options": false,
+            "price": 18.99,
+            "category": 3,
+            "rating": 4.0,
+            "image_url": "",
+            "image": "media/products/face/toner.jpg"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005200166",
+            "name": "Wet n Wild Color Icon Bronzer SPF 15",
+            "description": "This Bronzer is dermatologist-tested, oil-free, is the winner of The Oprah Magazine O-Ward and protects from harmful UVB rays.",
+            "has_options": false,
+            "price": 25.99,
+            "category": 3,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "media/products/face/wet-bronzer.jpg"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005210241",
+            "name": "Maybelline Baby Lips Pink Lip Balm",
+            "description": "Baby Lips gives intense conditioning lip care & 8 hr hydration for lips that feel baby soft.",
+            "has_options": false,
+            "price": 4.99,
+            "category": 3,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "media/products/lips/baby-balm.jpg"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005280104",
+            "name": "Focallure Matte Liquid Lipstick",
+            "description": "Long-wearing, moisturizing, full-coverage cream-to-matte color in a range of statement-making shades for all skin tones. It has a unique formula that provides the rich color of a lip stain and the shiny finish of a lip gloss. Makes lips look fuller and more dazzling.",
+            "has_options": true,
+            "price": 8.99,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/products/lips/foc15-lip.jpg"
+        }
+    },
+    {
+        "pk": 62,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005310360",
+            "name": "Innisfree Lip Balm",
+            "description": "A lightweight lip balm formulated with moisture-boosting plant oils that wrap your lips in a natural-looking tint without any stickiness.",
+            "has_options": true,
+            "price": 6.99,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/products/lips/innis-balm.jpg"
+        }
+    },
+    {
+        "pk": 63,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005330595",
+            "name": "Purbasari Hi-Matte Lip Cream",
+            "description": "A highly pigmented Lip Cream from Purbasari that provides moisture and a long-lasting matte finish. Comes with an easy-to-use applicator brush.",
+            "has_options": true,
+            "price": 19.99,
+            "category": 3,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "media/products/lips/lip-cream.jpg"
+        }
+    },
+    {
+        "pk": 64,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005430914",
+            "name": "Nyx Lipliner Pencil",
+            "description": "Nyx lip pencils come in a variety of dashing shades - from auburn to orange and traffic-stopping red. The buttery, long-wearing lip liner formula goes on easily and resists bleeding.",
+            "has_options": true,
+            "price": 3.99,
+            "category": 3,
+            "rating": 4.0,
+            "image_url": "",
+            "image": "media/products/lips/lip-pencil.jpg"
+        }
+    },
+    {
+        "pk": 65,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005430944",
+            "name": "Longlasting Matte Lip Cream",
+            "description": "A light and long lasting lip color with a soft focus effect to conceal wrinkles. It contains: Astrocaryum Murumuru Seed Butter to moisturise and vitamin E as antioxidant.",
+            "has_options": true,
+            "price": 12.99,
+            "category": 3,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "media/products/lips/long-lip.jpg"
+        }
+    },
+    {
+        "pk": 66,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005510265",
+            "name": "Stay Matte Lip Cream",
+            "description": "A liquid lipstick with high-intensity colour, velvety matte finish, and a long-lasting, comfortable wear.",
+            "has_options": true,
+            "price": 6.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "media/products/lips/matte-lip.jpg"
+        }
+    },
+    {
+        "pk": 67,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005520201",
+            "name": "Nature Republic Lip Gloss",
+            "description": "This product is a non-sticky, light feel lip gloss that provides a shiny vivid color while making the lips look plump with its excellent luster.",
+            "has_options": true,
+            "price": 12.00,
+            "category": 3,
+            "rating": 4.3,
+            "image_url": "",
+            "image": "media/products/lips/nat-lip.jpg"
+        }
+    },
+    {
+        "pk": 68,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005520205",
+            "name": "Nyx Butter Lip Balm",
+            "description": "This scrumptious Balm melts directly onto the lips leaving a shiny tinted finish behind making lips kissably soft. These formulas are available in a variety of colours and flavours.",
+            "has_options": true,
+            "price": 8.99,
+            "category": 3,
+            "rating": 4.2,
+            "image_url": "",
+            "image": "media/products/lips/nyx-balm.jpg"
+        }
+    },
+    {
+        "pk": 69,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005630545",
+            "name": "Nyx Lip Cream",
+            "description": "The velvety smooth Soft Matte Lip Cream delivers a burst of creamy colour and sets to a stunning matte finish. Long-lasting, lightweight and delightfully creamy, it’s no wonder this sweet-scented matte liquid lipstick is a fan favourite.",
+            "has_options": true,
+            "price": 8.99,
+            "category": 3,
+            "rating": 4.3,
+            "image_url": "",
+            "image": "media/products/lips/nyx-gloss.jpg"
+        }
+    },
+    {
+        "pk": 70,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005630605",
+            "name": "O.TWO.O Matte Long Lasting Waterproof Revolution Lipstick",
+            "description": "Velvet matte, highly saturated and easy to wear with a longlasting and moisturizing formula; An anti ageing complex and UV filter for optimum protection; Various colour options, all of them are popular colors choices world wide.",
+            "has_options": true,
+            "price": 6.99,
+            "category": 3,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "media/products/lips/otwoo-lip.jpg"
+        }
+    },
+    {
+        "pk": 71,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005630637",
+            "name": "Rosebud Strawberry Lip Balm",
+            "description": "Rosebud's Strawberry Lip Balm was formulated to aid in protecting and moisturizing the lips from the drying effects of the weather. This aromatic balm comes in a compact tin that's easy to carry in a purse or pocket. It provides the same high quality you have come to expect from the makers of Rosebud Salve and it smells wonderful!!",
+            "has_options": false,
+            "price": 9.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "media/products/lips/rose-balm.jpg"
+        }
+    },
+    {
+        "pk": 72,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005630638",
+            "name": "Vaseline Lip Therapy Cocoa Butter",
+            "description": "Vaseline Lip Therapy Cocoa Butter is clinically proven to help heal dry lips by instantly softening and soothing dry lips. Made with triple-purified Vaseline Petroleum Jelly and rich cocoa butter it locks in moisture to help lips recover from discomfort. Its non-sticky, non-greasy formula locks in moisture.",
+            "has_options": false,
+            "price": 1.99,
+            "category": 3,
+            "rating": 4.2,
+            "image_url": "",
+            "image": "media/products/lips/vaseline.jpg"
+        }
+    },
+    {
+        "pk": 73,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005650677",
+            "name": "Catrice Cosmetics Velvet Matte Lip Cream",
+            "description": "The absolute must-have product for anyone seeking a gorgeous, silky-matte finish with a high coverage that leaves the lips feeling wonderfully nourished. Due to its super soft applicator, the highly pigmented texture can be applied easily and accurately. The mousse-like lip cream is as light as a feather and is enriched with vitamin E.",
+            "has_options": true,
+            "price": 2.99,
+            "category": 3,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "media/products/lips/velvet-lip.jpg"
+        }
+    },
+    {
+        "pk": 74,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005700140",
+            "name": "Wardah Matte Lip Cream",
+            "description": "The eye-catching embellishment on the back pocket of these classic skinny jeans takes casual style to the next level. 5-pocket styling zip fly with button closure back pocket embellishments ramie/cotton/polyester/spandex washable imported",
+            "has_options": true,
+            "price": 30.99,
+            "category": 3,
+            "rating": 2.0,
+            "image_url": "",
+            "image": "media/products/lips/wardah-lip.jpg"
+        }
+    },
+    {
+        "pk": 75,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005740430",
+            "name": "PHO Nail Varnish",
+            "description": "This nail colour range offers up a variety of shades, from your brights to your darks; with the likes of Berry, Black and Brown adding a sultry note to your style",
+            "has_options": true,
+            "price": 13.99,
+            "category": 4,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "media/products/nails/nailvarnish.jpg"
+        }
+    },
+    {
+        "pk": 76,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005740561",
+            "name": "OPI Nail Lacquer",
+            "description": "Nail Lacquer is OPI's original nail polish formula. Up to seven days of wear. Fast - drying formula. Over 200 shades to choose from.",
+            "has_options": true,
+            "price": 13.99,
+            "category": 4,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "media/products/nails/opi-nail.jpg"
+        }
+    },
+    {
+        "pk": 77,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005740634",
+            "name": "Makeup Brush Set",
+            "description": "This brush sets deliver premium quality and bold designs at an affordable price point. They're essentials for all make-up lovers.",
+            "has_options": false,
+            "price": 60.99,
+            "category": 4,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "media/products/nails/brush-set.jpg"
+        }
+    },
+    {
+        "pk": 78,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6005760088",
+            "name": "Beili Makeup Brush",
+            "description": "This makeup brush is everything you need to get a beautiful, natural application of makeup. BEILI Makeup Brushes to give women access to superior quality, high performance tools. The functional label of brush is plated on the each handle for easy use. Perfect for any budding makeup artist or seasoned professional.",
+            "has_options": false,
+            "price": 9.00,
+            "category": 4,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/products/nails/brush.jpg"
+        }
+    },
+    {
+        "pk": 79,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005810108",
+            "name": "Back Massage",
+            "description": "The therapist performs a range of massage techniques to help ease your aches and pains",
+            "has_options": true,
+            "price": 35.00,
+            "category": 5,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "media/service/back-oil.jpg"
+        }
+    },
+    {
+        "pk": 80,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005820197",
+            "name": "File & Gel French Hands",
+            "description": "",
+            "has_options": false,
+            "price": 19.00,
+            "category": 4,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "media/service/beautician.jpg"
+        }
+    },
+    {
+        "pk": 81,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005840598",
+            "name": "Semi Permanent Makeup",
+            "description": "Full information on request",
+            "has_options": true,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/service/brow-tat.jpg"
+        }
+    },
+    {
+        "pk": 82,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005840776",
+            "name": "Eyebrow Tint",
+            "description": "Patch test required 24hours before treatment",
+            "has_options": false,
+            "price": 5.00,
+            "category": 2,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/service/brow-tint.jpg"
+        }
+    },
+    {
+        "pk": 83,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005850180",
+            "name": "Eyebrow Wax",
+            "description": "",
+            "has_options": false,
+            "price": 7.00,
+            "category": 2,
+            "rating": 4.2,
+            "image_url": "",
+            "image": "media/service/brow-wax.jpg"
+        }
+    },
+    {
+        "pk": 84,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005851218",
+            "name": "Deep Tissue Massage",
+            "description": "Full information on request",
+            "has_options": true,
+            "price": 35.00,
+            "category": 5,
+            "rating": 4.1,
+            "image_url": "",
+            "image": "media/service/deep-tissue.jpg"
+        }
+    },
+    {
+        "pk": 85,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005860175",
+            "name": "Brow & Lash Tints",
+            "description": "Patch test required 24hours before treatment",
+            "has_options": false,
+            "price": 10.00,
+            "category": 2,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "media/service/eye-brows-tinted.jpg"
+        }
+    },
+    {
+        "pk": 86,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005860263",
+            "name": "Eyelash Extensions",
+            "description": "",
+            "has_options": false,
+            "category": 2,
+            "rating": 4.0,
+            "image_url": "",
+            "image": "media/service/eyelash.jpg"
+        }
+    },
+    {
+        "pk": 87,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005870183",
+            "name": "Gel French Pedicure",
+            "description": "",
+            "has_options": false,
+            "price": 30.00,
+            "category": 4,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/service/feet.jpg"
+        }
+    },
+    {
+        "pk": 88,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005870599",
+            "name": "Foot Massage",
+            "description": "A powerfully revitalising foot massage that focuses mainly on the energy lines of the lower legs, and reflex points of the feet in order to balance and harmonise the flow of energy around the body.",
+            "has_options": true,
+            "price": 35.00,
+            "category": 5,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "media/service/foot-massage.jpg"
+        }
+    },
+    {
+        "pk": 89,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005870638",
+            "name": "Head Massage",
+            "description": "",
+            "has_options": true,
+            "price": 35.00,
+            "category": 5,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "media/service/head-massage.jpg"
+        }
+    },
+    {
+        "pk": 90,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005910565",
+            "name": "Hot Wax - Lip",
+            "description": "",
+            "has_options": false,
+            "price": 7.00,
+            "category": 1,
+            "rating": 4.3,
+            "image_url": "",
+            "image": "media/service/hot-wax.jpg"
+        }
+    },
+    {
+        "pk": 91,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005930313",
+            "name": "Eyelash Tint",
+            "description": "Patch test required 24hours before treatment",
+            "has_options": false,
+            "price": 8.00,
+            "category": 2,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "media/service/lash-ext.jpg"
+        }
+    },
+    {
+        "pk": 92,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005940242",
+            "name": "Hot Wax - Leg",
+            "description": "This comfy flannel shirt is a cool-weather essential that welcomes chilly days with bright colors and fresh style. button front long sleeves 2 chest pockets 100% cotton washable imported",
+            "has_options": true,
+            "price": 18.00,
+            "category": 1,
+            "rating": 3.7,
+            "image_url": "",
+            "image": "media/service/leg-wax.jpg"
+        }
+    },
+    {
+        "pk": 93,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005940299",
+            "name": "Course of 5 Anti-Cellulite Massage",
+            "description": "A course of Anti Cellulite Massage treatments provided by our senior therapists to suit your needs. Receive your treatments as frequently as you like.",
+            "has_options": true,
+            "price": 175.00,
+            "category": 5,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/service/leg.jpg"
+        }
+    },
+    {
+        "pk": 94,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005941612",
+            "name": "Removal",
+            "description": "Soaks offs free with reapplication or £5 for removal",
+            "has_options": true,
+            "price": 5.00,
+            "category": 4,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/service/mani.jpg"
+        }
+    },
+    {
+        "pk": 95,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005980058",
+            "name": "Mud Facial",
+            "description": "A great 'pick me up' before or after a special occasion.",
+            "has_options": true,
+            "price": 85.00,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/service/mud.jpg"
+        }
+    },
+    {
+        "pk": 96,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6005980146",
+            "name": "File & Polish Hands",
+            "description": "",
+            "has_options": false,
+            "price": 10.00,
+            "category": 4,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "media/service/nails.jpg"
+        }
+    },
+    {
+        "pk": 97,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6006070077",
+            "name": "Pampered Mum-To-Be Massage Package",
+            "description": "Gives special attention to the mum-to-be by helping to reduce labour times, blood pressure, anxiety and fluid retention. Package includes 30min Prescriptive Facial, 30min Pregnancy Back Massage, 30min Relaxing Spa Foot & Leg Pack and 30min Gel Manicure or Pedicure. Can only be provided from week 12 up to birth. Please note all parts of this package must be booked in the same appointment and therefore cannot be split.",
+            "has_options": false,
+            "price": 96.00,
+            "category": 5,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "media/service/prenatal.jpg"
+        }
+    },
+    {
+        "pk": 98,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6006081758",
+            "name": "Threading - Eyebrows/Lip/Chin",
+            "description": "",
+            "has_options": true,
+            "price": 5.00,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "media/service/thread.jpg"
+        }
+    },
+    {
+        "pk": 99,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6006082011",
+            "name": "Manicure with Polish",
+            "description": "",
+            "has_options": false,
+            "price": 17.00,
+            "category": 4,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/service/varnish.jpg"
+        }
+    },
+    {
+        "pk": 100,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6006150186",
+            "name": "Gel French Manicure",
+            "description": "",
+            "has_options": false,
+            "price": 27.00,
+            "category": 4,
+            "rating": 4.0,
+            "image_url": "",
+            "image": "media/service/hand-nail.jpg"
+        }
+    },
+    {
+        "pk": 101,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6006153172",
+            "name": "File & Gel Colour Feet",
+            "description": "",
+            "has_options": false,
+            "price": 17.00,
+            "category": 4,
+            "rating": 4.2,
+            "image_url": "",
+            "image": "media/service/legsup.jpg"
+        }
+    }, {
+        "pk": 102,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6006160127",
+            "name": "File & Gel Colour Hands",
+            "description": "",
+            "has_options": false,
+            "price": 17.00,
+            "category": 4,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "media/service/manicure.jpg"
+        }
+    },
+    {
+        "pk": 103,
+        "model": "services.service",
+        "fields": {
+            "sku": "bt6006160833",
+            "name": "Threading - Full Face",
+            "description": "",
+            "has_options": false,
+            "price": 15.00,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "media/service/thread.jpg"
+        }
+    }
+]

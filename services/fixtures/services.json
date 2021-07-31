@@ -1,0 +1,351 @@
+[{
+    "pk": 79,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005810108",
+        "name": "Back Massage",
+        "description": "The therapist performs a range of massage techniques to help ease your aches and pains",
+
+        "price": 35.00,
+        "category": 11,
+        "rating": 4.7,
+        "image_url": "",
+        "image": "media/service/back-oil.jpg"
+    }
+}, {
+    "pk": 80,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005820197",
+        "name": "File & Gel French Hands",
+        "description": "",
+
+        "price": 19.00,
+        "category": 10,
+        "rating": 4.9,
+        "image_url": "",
+        "image": "media/service/beautician.jpg"
+    }
+}, {
+    "pk": 81,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005840598",
+        "name": "Semi Permanent Makeup",
+        "description": "Full information on request",
+
+        "price": 195.00,
+        "category": 9,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "media/service/brow-tat.jpg"
+    }
+}, {
+    "pk": 82,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005840776",
+        "name": "Eyebrow Tint",
+        "description": "Patch test required 24hours before treatment",
+
+        "price": 5.00,
+        "category": 8,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "media/service/brow-tint.jpg"
+    }
+}, {
+    "pk": 83,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005850180",
+        "name": "Eyebrow Wax",
+        "description": "",
+
+        "price": 7.00,
+        "category": 8,
+        "rating": 4.2,
+        "image_url": "",
+        "image": "media/service/brow-wax.jpg"
+    }
+}, {
+    "pk": 84,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005851218",
+        "name": "Deep Tissue Massage",
+        "description": "Full information on request",
+
+        "price": 35.00,
+        "category": 11,
+        "rating": 4.1,
+        "image_url": "",
+        "image": "media/service/deep-tissue.jpg"
+    }
+}, {
+    "pk": 85,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005860175",
+        "name": "Brow & Lash Tints",
+        "description": "Patch test required 24hours before treatment",
+
+        "price": 10.00,
+        "category": 8,
+        "rating": 4.8,
+        "image_url": "",
+        "image": "media/service/eye-brows-tinted.jpg"
+    }
+}, {
+    "pk": 86,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005860263",
+        "name": "Eyelash Extensions",
+        "description": "Full information on request",
+
+        "price": 70.00,
+        "category": 8,
+        "rating": 4.0,
+        "image_url": "",
+        "image": "media/service/eyelash.jpg"
+    }
+}, {
+    "pk": 87,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005870183",
+        "name": "Gel French Pedicure",
+        "description": "",
+
+        "price": 30.00,
+        "category": 11,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "media/service/feet.jpg"
+    }
+}, {
+    "pk": 88,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005870599",
+        "name": "Foot Massage",
+        "description": "A powerfully revitalising foot massage that focuses mainly on the energy lines of the lower legs, and reflex points of the feet in order to balance and harmonise the flow of energy around the body.",
+
+        "price": 35.00,
+        "category": 11,
+        "rating": 4.4,
+        "image_url": "",
+        "image": "media/service/foot-massage.jpg"
+    }
+}, {
+    "pk": 89,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005870638",
+        "name": "Head Massage",
+        "description": "",
+
+        "price": 35.00,
+        "category": 11,
+        "rating": 4.4,
+        "image_url": "",
+        "image": "media/service/head-massage.jpg"
+    }
+}, {
+    "pk": 90,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005910565",
+        "name": "Hot Wax - Lip",
+        "description": "",
+
+        "price": 7.00,
+        "category": 7,
+        "rating": 4.3,
+        "image_url": "",
+        "image": "media/service/hot-wax.jpg"
+    }
+}, {
+    "pk": 91,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005930313",
+        "name": "Eyelash Tint",
+        "description": "Patch test required 24hours before treatment",
+
+        "price": 8.00,
+        "category": 8,
+        "rating": 4.9,
+        "image_url": "",
+        "image": "media/service/lash-ext.jpg"
+    }
+}, {
+    "pk": 92,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005940242",
+        "name": "Hot Wax - Leg",
+        "description": "This comfy flannel shirt is a cool-weather essential that welcomes chilly days with bright colors and fresh style. button front long sleeves 2 chest pockets 100% cotton washable imported",
+
+        "price": 18.00,
+        "category": 7,
+        "rating": 3.7,
+        "image_url": "",
+        "image": "media/service/leg-wax.jpg"
+    }
+}, {
+    "pk": 93,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005940299",
+        "name": "Course of 5 Anti-Cellulite Massage",
+        "description": "A course of Anti Cellulite Massage treatments provided by our senior therapists to suit your needs. Receive your treatments as frequently as you like.",
+
+        "price": 175.00,
+        "category": 11,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "media/service/leg.jpg"
+    }
+}, {
+    "pk": 94,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005941612",
+        "name": "Removal",
+        "description": "Soaks offs free with reapplication or £5 for removal",
+
+        "price": 5.00,
+        "category": 10,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "media/service/mani.jpg"
+    }
+}, {
+    "pk": 95,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005980058",
+        "name": "Mud Facial",
+        "description": "A great 'pick me up' before or after a special occasion.",
+
+        "price": 85.00,
+        "category": 9,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "media/service/mud.jpg"
+    }
+}, {
+    "pk": 96,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6005980146",
+        "name": "File & Polish Hands",
+        "description": "",
+
+        "price": 10.00,
+        "category": 10,
+        "rating": 4.5,
+        "image_url": "",
+        "image": "media/service/nails.jpg"
+    }
+}, {
+    "pk": 97,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6006070077",
+        "name": "Pampered Mum-To-Be Massage Package",
+        "description": "Gives special attention to the mum-to-be by helping to reduce labour times, blood pressure, anxiety and fluid retention. Package includes 30min Prescriptive Facial, 30min Pregnancy Back Massage, 30min Relaxing Spa Foot & Leg Pack and 30min Gel Manicure or Pedicure. Can only be provided from week 12 up to birth. Please note all parts of this package must be booked in the same appointment and therefore cannot be split.",
+
+        "price": 96.00,
+        "category": 11,
+        "rating": 4.4,
+        "image_url": "",
+        "image": "media/service/prenatal.jpg"
+    }
+}, {
+    "pk": 98,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6006081758",
+        "name": "Threading - Eyebrows/Lip/Chin",
+        "description": "",
+
+        "price": 5.00,
+        "category": 9,
+        "rating": 4.8,
+        "image_url": "",
+        "image": "media/service/thread.jpg"
+    }
+}, {
+    "pk": 99,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6006082011",
+        "name": "Manicure with Polish",
+        "description": "",
+
+        "price": 17.00,
+        "category": 10,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "media/service/varnish.jpg"
+    }
+}, {
+    "pk": 100,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6006150186",
+        "name": "Gel French Manicure",
+        "description": "",
+
+        "price": 27.00,
+        "category": 10,
+        "rating": 4.0,
+        "image_url": "",
+        "image": "media/service/hand-nail.jpg"
+    }
+}, {
+    "pk": 101,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6006153172",
+        "name": "File & Gel Colour Feet",
+        "description": "",
+
+        "price": 17.00,
+        "category": 10,
+        "rating": 4.2,
+        "image_url": "",
+        "image": "media/service/legsup.jpg"
+    }
+}, {
+    "pk": 102,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6006160127",
+        "name": "File & Gel Colour Hands",
+        "description": "",
+
+        "price": 17.00,
+        "category": 10,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "media/service/manicure.jpg"
+    }
+}, {
+    "pk": 103,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6006160833",
+        "name": "Threading - Full Face",
+        "description": "",
+
+        "price": 15.00,
+        "category": 9,
+        "rating": 4.8,
+        "image_url": "",
+        "image": "media/service/thread.jpg"
+    }
+}]

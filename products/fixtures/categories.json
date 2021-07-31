@@ -2,48 +2,48 @@
         "pk": 1,
         "model": "products.category",
         "fields": {
-            "name": "waxing",
-            "friendly_name": "Waxing"
+            "name": "waxing_products",
+            "friendly_name": "Waxing Products"
         }
     },
     {
         "pk": 2,
         "model": "products.category",
         "fields": {
-            "name": "eye",
-            "friendly_name": "Eye Treatments"
+            "name": "eye_products",
+            "friendly_name": "Eye Products"
         }
     },
     {
         "pk": 3,
         "model": "products.category",
         "fields": {
-            "name": "face",
-            "friendly_name": "Face"
+            "name": "face_products",
+            "friendly_name": "Face Products"
         }
     },
     {
         "pk": 4,
         "model": "products.category",
         "fields": {
-            "name": "nails",
-            "friendly_name": "Nails"
+            "name": "nails_products",
+            "friendly_name": "Nail Products"
         }
     },
     {
         "pk": 5,
         "model": "products.category",
         "fields": {
-            "name": "body",
-            "friendly_name": "Body"
+            "name": "body_products",
+            "friendly_name": "Body Products"
         }
     },
     {
         "pk": 6,
         "model": "products.category",
         "fields": {
-            "name": "special",
-            "friendly_name": "Special Offers"
+            "name": "special_products",
+            "friendly_name": "Product Special Offers"
         }
     }
 ]

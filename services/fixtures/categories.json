@@ -1,0 +1,43 @@
+ [{
+     "pk": 7,
+     "model": "services.category",
+     "fields": {
+         "name": "waxing_services",
+         "friendly_name": "Waxing Services"
+     }
+ }, {
+     "pk": 8,
+     "model": "services.category",
+     "fields": {
+         "name": "eye_services",
+         "friendly_name": "Eye Treatment Services"
+     }
+ }, {
+     "pk": 9,
+     "model": "services.category",
+     "fields": {
+         "name": "face_services",
+         "friendly_name": "Face Services"
+     }
+ }, {
+     "pk": 10,
+     "model": "services.category",
+     "fields": {
+         "name": "nails_services",
+         "friendly_name": "Nail Services"
+     }
+ }, {
+     "pk": 11,
+     "model": "services.category",
+     "fields": {
+         "name": "body_services",
+         "friendly_name": "Body Services"
+     }
+ }, {
+     "pk": 12,
+     "model": "services.category",
+     "fields": {
+         "name": "special_services",
+         "friendly_name": "Service Special Offers"
+     }
+ }]

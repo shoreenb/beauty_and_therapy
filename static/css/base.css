@@ -56,6 +56,12 @@ img {
     min-width: 200px;
 }
 
+#products-btn,
+#services-btn {
+    display: block;
+    width: 50%;
+}
+
 .btn-black {
     background: white;
     color: black;

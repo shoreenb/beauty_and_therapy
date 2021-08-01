@@ -44,15 +44,15 @@
     "pk": 82,
     "model": "services.service",
     "fields": {
-        "sku": "bt6005840776",
-        "name": "Eyebrow Tint",
-        "description": "Patch test required 24hours before treatment",
+        "sku": "bt6005940299",
+        "name": "Course of 5 Anti-Cellulite Massage",
+        "description": "A course of Anti Cellulite Massage treatments provided by our senior therapists to suit your needs. Receive your treatments as frequently as you like.",
 
-        "price": 5.00,
-        "category": 8,
+        "price": 175.00,
+        "category": 11,
         "rating": 5.0,
         "image_url": "",
-        "image": "services/brow-tint.jpg"
+        "image": "services/leg.jpg"
     }
 }, {
     "pk": 83,
@@ -198,15 +198,15 @@
     "pk": 93,
     "model": "services.service",
     "fields": {
-        "sku": "bt6005940299",
-        "name": "Course of 5 Anti-Cellulite Massage",
-        "description": "A course of Anti Cellulite Massage treatments provided by our senior therapists to suit your needs. Receive your treatments as frequently as you like.",
+        "sku": "bt6005840776",
+        "name": "Eyebrow Tint",
+        "description": "Patch test required 24hours before treatment",
 
-        "price": 175.00,
-        "category": 11,
+        "price": 5.00,
+        "category": 8,
         "rating": 5.0,
         "image_url": "",
-        "image": "services/leg.jpg"
+        "image": "services/brow-tint.jpg"
     }
 }, {
     "pk": 94,
@@ -268,15 +268,15 @@
     "pk": 98,
     "model": "services.service",
     "fields": {
-        "sku": "bt6006081758",
-        "name": "Threading - Eyebrows/Lip/Chin",
+        "sku": "bt6006160127",
+        "name": "File & Gel Colour Hands",
         "description": "",
 
-        "price": 5.00,
-        "category": 9,
-        "rating": 4.8,
+        "price": 17.00,
+        "category": 10,
+        "rating": 5.0,
         "image_url": "",
-        "image": "services/thread.jpg"
+        "image": "services/manicure.jpg"
     }
 }, {
     "pk": 99,
@@ -324,15 +324,15 @@
     "pk": 102,
     "model": "services.service",
     "fields": {
-        "sku": "bt6006160127",
-        "name": "File & Gel Colour Hands",
+        "sku": "bt6006081758",
+        "name": "Threading - Eyebrows/Lip/Chin",
         "description": "",
 
-        "price": 17.00,
-        "category": 10,
-        "rating": 5.0,
+        "price": 5.00,
+        "category": 9,
+        "rating": 4.8,
         "image_url": "",
-        "image": "services/manicure.jpg"
+        "image": "services/thread.jpg"
     }
 }, {
     "pk": 103,

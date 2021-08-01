@@ -10,7 +10,7 @@
         "category": 11,
         "rating": 4.7,
         "image_url": "",
-        "image": "media/service/back-oil.jpg"
+        "image": "services/back-oil.jpg"
     }
 }, {
     "pk": 80,
@@ -24,7 +24,7 @@
         "category": 10,
         "rating": 4.9,
         "image_url": "",
-        "image": "media/service/beautician.jpg"
+        "image": "services/beautician.jpg"
     }
 }, {
     "pk": 81,
@@ -38,7 +38,7 @@
         "category": 9,
         "rating": 5.0,
         "image_url": "",
-        "image": "media/service/brow-tat.jpg"
+        "image": "services/brow-tat.jpg"
     }
 }, {
     "pk": 82,
@@ -52,7 +52,7 @@
         "category": 8,
         "rating": 5.0,
         "image_url": "",
-        "image": "media/service/brow-tint.jpg"
+        "image": "services/brow-tint.jpg"
     }
 }, {
     "pk": 83,
@@ -66,7 +66,7 @@
         "category": 8,
         "rating": 4.2,
         "image_url": "",
-        "image": "media/service/brow-wax.jpg"
+        "image": "services/brow-wax.jpg"
     }
 }, {
     "pk": 84,
@@ -80,7 +80,7 @@
         "category": 11,
         "rating": 4.1,
         "image_url": "",
-        "image": "media/service/deep-tissue.jpg"
+        "image": "services/deep-tissue.jpg"
     }
 }, {
     "pk": 85,
@@ -94,7 +94,7 @@
         "category": 8,
         "rating": 4.8,
         "image_url": "",
-        "image": "media/service/eye-brows-tinted.jpg"
+        "image": "services/eye-brows-tinted.jpg"
     }
 }, {
     "pk": 86,
@@ -108,7 +108,7 @@
         "category": 8,
         "rating": 4.0,
         "image_url": "",
-        "image": "media/service/eyelash.jpg"
+        "image": "services/eyelash.jpg"
     }
 }, {
     "pk": 87,
@@ -122,7 +122,7 @@
         "category": 11,
         "rating": 5.0,
         "image_url": "",
-        "image": "media/service/feet.jpg"
+        "image": "services/feet.jpg"
     }
 }, {
     "pk": 88,
@@ -136,7 +136,7 @@
         "category": 11,
         "rating": 4.4,
         "image_url": "",
-        "image": "media/service/foot-massage.jpg"
+        "image": "services/foot-massage.jpg"
     }
 }, {
     "pk": 89,
@@ -150,7 +150,7 @@
         "category": 11,
         "rating": 4.4,
         "image_url": "",
-        "image": "media/service/head-massage.jpg"
+        "image": "services/head-massage.jpg"
     }
 }, {
     "pk": 90,
@@ -164,7 +164,7 @@
         "category": 7,
         "rating": 4.3,
         "image_url": "",
-        "image": "media/service/hot-wax.jpg"
+        "image": "services/hot-wax.jpg"
     }
 }, {
     "pk": 91,
@@ -178,7 +178,7 @@
         "category": 8,
         "rating": 4.9,
         "image_url": "",
-        "image": "media/service/lash-ext.jpg"
+        "image": "services/lash-ext.jpg"
     }
 }, {
     "pk": 92,
@@ -186,13 +186,13 @@
     "fields": {
         "sku": "bt6005940242",
         "name": "Hot Wax - Leg",
-        "description": "This comfy flannel shirt is a cool-weather essential that welcomes chilly days with bright colors and fresh style. button front long sleeves 2 chest pockets 100% cotton washable imported",
+        "description": "",
 
         "price": 18.00,
         "category": 7,
         "rating": 3.7,
         "image_url": "",
-        "image": "media/service/leg-wax.jpg"
+        "image": "services/leg-wax.jpg"
     }
 }, {
     "pk": 93,
@@ -206,7 +206,7 @@
         "category": 11,
         "rating": 5.0,
         "image_url": "",
-        "image": "media/service/leg.jpg"
+        "image": "services/leg.jpg"
     }
 }, {
     "pk": 94,
@@ -220,7 +220,7 @@
         "category": 10,
         "rating": 5.0,
         "image_url": "",
-        "image": "media/service/mani.jpg"
+        "image": "services/mani.jpg"
     }
 }, {
     "pk": 95,
@@ -234,7 +234,7 @@
         "category": 9,
         "rating": 5.0,
         "image_url": "",
-        "image": "media/service/mud.jpg"
+        "image": "services/mud.jpg"
     }
 }, {
     "pk": 96,
@@ -248,7 +248,7 @@
         "category": 10,
         "rating": 4.5,
         "image_url": "",
-        "image": "media/service/nails.jpg"
+        "image": "services/nails.jpg"
     }
 }, {
     "pk": 97,
@@ -262,7 +262,7 @@
         "category": 11,
         "rating": 4.4,
         "image_url": "",
-        "image": "media/service/prenatal.jpg"
+        "image": "services/prenatal.jpg"
     }
 }, {
     "pk": 98,
@@ -276,7 +276,7 @@
         "category": 9,
         "rating": 4.8,
         "image_url": "",
-        "image": "media/service/thread.jpg"
+        "image": "services/thread.jpg"
     }
 }, {
     "pk": 99,
@@ -290,7 +290,7 @@
         "category": 10,
         "rating": 5.0,
         "image_url": "",
-        "image": "media/service/varnish.jpg"
+        "image": "services/varnish.jpg"
     }
 }, {
     "pk": 100,
@@ -304,7 +304,7 @@
         "category": 10,
         "rating": 4.0,
         "image_url": "",
-        "image": "media/service/hand-nail.jpg"
+        "image": "services/hand-nail.jpg"
     }
 }, {
     "pk": 101,
@@ -318,7 +318,7 @@
         "category": 10,
         "rating": 4.2,
         "image_url": "",
-        "image": "media/service/legsup.jpg"
+        "image": "services/legsup.jpg"
     }
 }, {
     "pk": 102,
@@ -332,7 +332,7 @@
         "category": 10,
         "rating": 5.0,
         "image_url": "",
-        "image": "media/service/manicure.jpg"
+        "image": "services/manicure.jpg"
     }
 }, {
     "pk": 103,
@@ -346,6 +346,6 @@
         "category": 9,
         "rating": 4.8,
         "image_url": "",
-        "image": "media/service/thread.jpg"
+        "image": "services/thread.jpg"
     }
 }]

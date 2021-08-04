@@ -7,7 +7,7 @@
         "description": "The therapist performs a range of massage techniques to help ease your aches and pains",
 
         "price": 35.00,
-        "category": 11,
+        "category": 23,
         "rating": 4.7,
         "image_url": "",
         "image": "services/back-oil.jpg"
@@ -21,7 +21,7 @@
         "description": "",
 
         "price": 19.00,
-        "category": 10,
+        "category": 23,
         "rating": 4.9,
         "image_url": "",
         "image": "services/beautician.jpg"
@@ -35,7 +35,7 @@
         "description": "Full information on request",
 
         "price": 195.00,
-        "category": 9,
+        "category": 19,
         "rating": 5.0,
         "image_url": "",
         "image": "services/brow-tat.jpg"
@@ -49,7 +49,7 @@
         "description": "A course of Anti Cellulite Massage treatments provided by our senior therapists to suit your needs. Receive your treatments as frequently as you like.",
 
         "price": 175.00,
-        "category": 11,
+        "category": 23,
         "rating": 5.0,
         "image_url": "",
         "image": "services/leg.jpg"
@@ -63,7 +63,7 @@
         "description": "",
 
         "price": 7.00,
-        "category": 8,
+        "category": 7,
         "rating": 4.2,
         "image_url": "",
         "image": "services/brow-wax.jpg"
@@ -77,7 +77,7 @@
         "description": "Full information on request",
 
         "price": 35.00,
-        "category": 11,
+        "category": 23,
         "rating": 4.1,
         "image_url": "",
         "image": "services/deep-tissue.jpg"
@@ -91,7 +91,7 @@
         "description": "Patch test required 24hours before treatment",
 
         "price": 10.00,
-        "category": 8,
+        "category": 26,
         "rating": 4.8,
         "image_url": "",
         "image": "services/eye-brows-tinted.jpg"
@@ -119,7 +119,7 @@
         "description": "",
 
         "price": 30.00,
-        "category": 11,
+        "category": 10,
         "rating": 5.0,
         "image_url": "",
         "image": "services/feet.jpg"
@@ -133,7 +133,7 @@
         "description": "A powerfully revitalising foot massage that focuses mainly on the energy lines of the lower legs, and reflex points of the feet in order to balance and harmonise the flow of energy around the body.",
 
         "price": 35.00,
-        "category": 11,
+        "category": 23,
         "rating": 4.4,
         "image_url": "",
         "image": "services/foot-massage.jpg"
@@ -147,7 +147,7 @@
         "description": "",
 
         "price": 35.00,
-        "category": 11,
+        "category": 23,
         "rating": 4.4,
         "image_url": "",
         "image": "services/head-massage.jpg"
@@ -161,7 +161,7 @@
         "description": "",
 
         "price": 7.00,
-        "category": 7,
+        "category": 14,
         "rating": 4.3,
         "image_url": "",
         "image": "services/hot-wax.jpg"
@@ -175,7 +175,7 @@
         "description": "Patch test required 24hours before treatment",
 
         "price": 8.00,
-        "category": 8,
+        "category": 16,
         "rating": 4.9,
         "image_url": "",
         "image": "services/lash-ext.jpg"
@@ -189,7 +189,7 @@
         "description": "",
 
         "price": 18.00,
-        "category": 7,
+        "category": 14,
         "rating": 3.7,
         "image_url": "",
         "image": "services/leg-wax.jpg"
@@ -203,7 +203,7 @@
         "description": "Patch test required 24hours before treatment",
 
         "price": 5.00,
-        "category": 8,
+        "category": 15,
         "rating": 5.0,
         "image_url": "",
         "image": "services/brow-tint.jpg"
@@ -217,7 +217,7 @@
         "description": "Soaks offs free with reapplication or £5 for removal",
 
         "price": 5.00,
-        "category": 10,
+        "category": 22,
         "rating": 5.0,
         "image_url": "",
         "image": "services/mani.jpg"
@@ -231,7 +231,7 @@
         "description": "A great 'pick me up' before or after a special occasion.",
 
         "price": 85.00,
-        "category": 9,
+        "category": 18,
         "rating": 5.0,
         "image_url": "",
         "image": "services/mud.jpg"
@@ -245,7 +245,7 @@
         "description": "",
 
         "price": 10.00,
-        "category": 10,
+        "category": 23,
         "rating": 4.5,
         "image_url": "",
         "image": "services/nails.jpg"
@@ -255,7 +255,7 @@
     "model": "services.service",
     "fields": {
         "sku": "bt6006070077",
-        "name": "Pampered Mum-To-Be Massage Package",
+        "name": "Pampered Mum-To-Be Package",
         "description": "Gives special attention to the mum-to-be by helping to reduce labour times, blood pressure, anxiety and fluid retention. Package includes 30min Prescriptive Facial, 30min Pregnancy Back Massage, 30min Relaxing Spa Foot & Leg Pack and 30min Gel Manicure or Pedicure. Can only be provided from week 12 up to birth. Please note all parts of this package must be booked in the same appointment and therefore cannot be split.",
 
         "price": 96.00,
@@ -268,12 +268,12 @@
     "pk": 98,
     "model": "services.service",
     "fields": {
-        "sku": "bt6006160127",
+        "sku": "bt6006081758",
         "name": "File & Gel Colour Hands",
         "description": "",
 
         "price": 17.00,
-        "category": 10,
+        "category": 23,
         "rating": 5.0,
         "image_url": "",
         "image": "services/manicure.jpg"
@@ -315,7 +315,7 @@
         "description": "",
 
         "price": 17.00,
-        "category": 10,
+        "category": 21,
         "rating": 4.2,
         "image_url": "",
         "image": "services/legsup.jpg"
@@ -324,12 +324,12 @@
     "pk": 102,
     "model": "services.service",
     "fields": {
-        "sku": "bt6006081758",
+        "sku": "bt6006160127",
         "name": "Threading - Eyebrows/Lip/Chin",
         "description": "",
 
         "price": 5.00,
-        "category": 9,
+        "category": 17,
         "rating": 4.8,
         "image_url": "",
         "image": "services/thread.jpg"
@@ -340,12 +340,82 @@
     "fields": {
         "sku": "bt6006160833",
         "name": "Threading - Full Face",
-        "description": "",
+        "description": "from £15",
 
         "price": 15.00,
         "category": 9,
         "rating": 4.8,
         "image_url": "",
         "image": "services/thread.jpg"
+    }
+}, {
+    "pk": 104,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6006170128",
+        "name": "Warm Strip Wax - Underarm",
+        "description": "",
+
+        "price": 7.00,
+        "category": 13,
+        "rating": 4.8,
+        "image_url": "",
+        "image": "services/strip.jpg"
+    }
+}, {
+    "pk": 105,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6006170131",
+        "name": "Warm Strip Wax - Lip",
+        "description": "",
+
+        "price": 6.00,
+        "category": 13,
+        "rating": 4.8,
+        "image_url": "",
+        "image": "services/strip.jpg"
+    }
+}, {
+    "pk": 106,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6006170357",
+        "name": "Warm Strip Wax - Full Face/Neck",
+        "description": "From £15",
+
+        "price": 15.00,
+        "category": 9,
+        "rating": 4.8,
+        "image_url": "",
+        "image": "services/strip.jpg"
+    }
+}, {
+    "pk": 107,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6006200155",
+        "name": "Hot Wax - Full Face/Neck",
+        "description": "from £18",
+
+        "price": 18.00,
+        "category": 9,
+        "rating": 4.8,
+        "image_url": "",
+        "image": "services/hot-wax.jpg"
+    }
+}, {
+    "pk": 108,
+    "model": "services.service",
+    "fields": {
+        "sku": "bt6006200658",
+        "name": "File & Gel French Feet",
+        "description": "",
+
+        "price": 19.00,
+        "category": 21,
+        "rating": 4.9,
+        "image_url": "",
+        "image": "services/legsup.jpg"
     }
 }]

@@ -45,5 +45,13 @@
             "name": "special_products",
             "friendly_name": "Product Special Offers"
         }
+    },
+    {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+            "name": "featured_p",
+            "friendly_name": "Featured Products"
+        }
     }
 ]

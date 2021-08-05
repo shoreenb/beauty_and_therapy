@@ -122,7 +122,7 @@
      "model": "services.category",
      "fields": {
          "name": "featured",
-         "friendly_name": "Featured"
+         "friendly_name": "Featured Services"
      }
  }, {
      "pk": 25,

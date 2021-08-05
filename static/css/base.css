@@ -123,7 +123,8 @@ img {
     position: inherit;
 }
 
-#overlay-container {
+#p_overlay-container,
+#s_overlay-container {
     position: relative;
 }
 
@@ -131,6 +132,18 @@ img.card-img-top.img-fluid {
     position: relative;
     transform: translateY(0)
 }
+
+a.category-badge>span.badge:hover {
+    background: #7bc5ae !important;
+    color: #fff !important;
+}
+
+#p_category-drop div.dropdown-menu.border-0.show,
+#s_category-drop div.dropdown-menu.border-0.show {
+    overflow: scroll;
+    height: 200px;
+}
+
 
 /* -------------------------------- Media Queries */
 

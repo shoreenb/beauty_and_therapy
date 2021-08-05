@@ -7,15 +7,15 @@ from services.models import Service
 
 def all_products(request):
     """
-    A view that shows all products and services as well as sorting and search
-    queries
+    A view that shows all products as well as sorting and search
+    queries for products and services
     """
 
     products = Product.objects.all()
     services = Service.objects.all()
+    categories = None
     services_searched = None
     query = None
-    categories = None
     sort = None
     direction = None
 
@@ -26,7 +26,8 @@ def all_products(request):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
-
+            if sortkey == 'category':
+                sortkey = 'category__name'
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':

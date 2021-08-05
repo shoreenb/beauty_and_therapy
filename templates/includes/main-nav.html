@@ -4,10 +4,13 @@
             <a href="#" class="font-weight-bold text-grey nav-link mr-5" id="services-link" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">All Services</a>
             <div class="dropdown-menu border-0" aria-labelledby="services-link">
+                <a href="{% url 'services' %}?category=featured_s" class="dropdown-item">Featured</a>
                 <a href="{% url 'services' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'services' %}?sort=rating&direction=desc" class="dropdown-item">By Rating</a>
                 <a href="{% url 'services' %}?sort=category&direction=asc" class="dropdown-item">By Category</a>
-                <a href="{% url 'services' %}" class="dropdown-item">All Services</a>
+                <a href="{% url 'services' %}?category=featured_s,waxing_services,strip_wax,hot_wax,eye_services,lashes,brows,brow_lash,face_services,thread,facial,semi_perm,nail_services,hands,feet,remove,body_services,massage,deals"
+                    class="
+                    dropdown-item">All Services</a>
             </div>
         </li>
 
@@ -15,10 +18,13 @@
             <a href="#" class="font-weight-bold text-grey nav-link mr-5" id="services-link" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">All Products</a>
             <div class="dropdown-menu border-0" aria-labelledby="services-link">
+                <a href="{% url 'products' %}?category=featured_p" class="dropdown-item">Featured</a>
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item">By Rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?category=featured_p,eye_products,face_products,nail_products,body_products,special_products"
+                    class="dropdown-item">All
+                    Products</a>
             </div>
         </li>
 
@@ -39,7 +45,7 @@
             <a href="" class="font-weight-bold text-grey nav-link mr-5" id="services-link" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">Eye Treatments</a>
             <div class="dropdown-menu border-0" aria-labelledby="services-link">
-                <a href="{% url 'services' %}?category=eye_services" class="dropdown-item">Eye Treatment Services</a>
+                <a href="{% url 'services' %}?category=eye_services" class="dropdown-item">Eye Services</a>
                 <a href="{% url 'services' %}?category=brows" class="dropdown-item">Eyebrows</a>
                 <a href="{% url 'services' %}?category=lashes" class="dropdown-item">Eyelashes</a>
                 <a href="{% url 'services' %}?category=brow_lash" class="dropdown-item">Brows &amp; Lashes</a>
@@ -57,7 +63,7 @@
                 <a href="{% url 'services' %}?category=thread" class="dropdown-item">Threading</a>
                 <a href="{% url 'services' %}?category=facial" class="dropdown-item">Facial</a>
                 <a href="{% url 'services' %}?category=semi_perm" class="dropdown-item">Semi-permanent Makeup</a>
-                <a href="{% url 'products' %}?category=face_products" class="dropdown-item">Products</a>
+                <a href="{% url 'products' %}?category=face_products" class="dropdown-item">Face Products</a>
                 <a href="{% url 'services' %}?category=face_services,thread,facial,semi_perm" class="dropdown-item">All
                     Face</a>
             </div>
@@ -71,7 +77,7 @@
                 <a href="{% url 'services' %}?category=hands" class="dropdown-item">Hands</a>
                 <a href="{% url 'services' %}?category=feet" class="dropdown-item">Feet</a>
                 <a href="{% url 'services' %}?category=remove" class="dropdown-item">Removal &amp; Reapplication</a>
-                <a href="{% url 'products' %}?category=nail_products" class="dropdown-item">Products</a>
+                <a href="{% url 'products' %}?category=nail_products" class="dropdown-item">Nail Products</a>
                 <a href="{% url 'services' %}?category=nail_services,hands,feet,remove" class="dropdown-item">All
                     Nails</a>
             </div>
@@ -83,7 +89,7 @@
             <div class="dropdown-menu border-0" aria-labelledby="services-link">
                 <a href="{% url 'services' %}?category=body_services" class="dropdown-item">Body Services</a>
                 <a href="{% url 'services' %}?category=massage" class="dropdown-item">Massage</a>
-                <a href="{% url 'products' %}?category=body_products" class="dropdown-item">Products</a>
+                <a href="{% url 'products' %}?category=body_products" class="dropdown-item">Body Products</a>
                 <a href="{% url 'services' %}?category=body_services,massage" class="dropdown-item">All Body</a>
             </div>
         </li>
@@ -92,11 +98,10 @@
             <a href="#" class="font-weight-bold text-grey nav-link mr-5" id="services-link" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">Special Offers</a>
             <div class="dropdown-menu border-0" aria-labelledby="services-link">
-                <a href="{% url 'services' %}?category=featured" class="dropdown-item">Featured</a>
                 <a href="{% url 'services' %}?category=deals" class="dropdown-item">Deals</a>
                 <a href="{% url 'products' %}?category=special_products" class="dropdown-item">Special
                     Offers</a>
-                <a href="{% url 'services' %}?category=featured,deals,special_products" class="dropdown-item">All
+                <a href="{% url 'services' %}?category=deals,special_products" class="dropdown-item">All
                     Offers</a>
             </div>
         </li>

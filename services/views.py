@@ -10,8 +10,8 @@ def all_services(request):
     """
 
     services = Service.objects.all()
-    query = None
     categories = None
+    query = None
     sort = None
     direction = None
 
@@ -22,7 +22,8 @@ def all_services(request):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 services = services.annotate(lower_name=Lower('name'))
-
+            if sortkey == 'category':
+                sortkey = 'category__name'
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':

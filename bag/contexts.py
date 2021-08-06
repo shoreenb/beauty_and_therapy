@@ -7,6 +7,7 @@ def bag_contents(request):
     bag_items = []
     total = 0
     product_count = 0
+    service_count = 0
 
     if total < settings.FREE_GIFT_THRESHOLD:
         gift = total * Decimal(settings.STANDARD_GIFT_PERCENTAGE / 100)
@@ -21,6 +22,7 @@ def bag_contents(request):
         'bag_items': bag_items,
         'total': total,
         'product_count': product_count,
+        'service_count': service_count,
         'gift': gift,
         'free_gift_delta': free_gift_delta,
         'free_gift_threshold': settings.FREE_GIFT_THRESHOLD,

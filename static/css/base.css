@@ -53,7 +53,8 @@ img {
 .shop-btn {
     background: #7bc5ae;
     color: black;
-    min-width: 200px;
+    min-width: 185px;
+    padding: 10px;
 }
 
 #products-btn,
@@ -63,8 +64,21 @@ img {
 }
 
 .btn-black {
+    background: black;
+    color: white;
+}
+
+.btn-outline-black {
     background: white;
-    color: black;
+    color: black !important;
+    border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
 }
 
 .shop-btn:hover,
@@ -75,6 +89,7 @@ img {
 .btn-black:focus {
     background: #222;
     color: white;
+    text-decoration: none !important;
 }
 
 .txt-shadow {
@@ -90,7 +105,7 @@ img {
 }
 
 .text-grey {
-    color: #6c6c6f;
+    color: #6c6c6f !important;
 }
 
 .text-aqua {
@@ -190,3 +205,6 @@ a.category-badge>span.badge:hover {
         padding-top: 0 !important;
     }
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}

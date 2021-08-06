@@ -40,7 +40,7 @@ def all_services(request):
             query = request.GET['q']
             if not query:
                 messages.error(request, "Please enter search criteria!")
-                return redirect(reverse('services'))
+                return redirect(reverse('home'))
 
             queries = Q(
                 name__icontains=query) | Q(description__icontains=query)

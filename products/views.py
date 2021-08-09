@@ -3,7 +3,6 @@ from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
 from .models import Product, Category
-from services.models import Service
 
 
 def all_products(request):
@@ -13,9 +12,7 @@ def all_products(request):
     """
 
     products = Product.objects.all()
-    services = Service.objects.all()
     categories = None
-    services_searched = None
     query = None
     sort = None
     direction = None
@@ -49,13 +46,11 @@ def all_products(request):
             queries = Q(
                 name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
-            services_searched = services.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
 
     context = {
         'products': products,
-        'services': services_searched,
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,

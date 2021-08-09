@@ -2,29 +2,15 @@
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
             <a href="#" class="font-weight-bold text-grey nav-link mr-5" id="services-link" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">All Services</a>
+                aria-haspopup="true" aria-expanded="false">All Products & Services</a>
             <div class="dropdown-menu border-0" aria-labelledby="services-link">
-                <a href="{% url 'services' %}?category=featured_s" class="dropdown-item">Featured</a>
-                <a href="{% url 'services' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'services' %}?sort=rating&direction=desc" class="dropdown-item">By Rating</a>
-                <a href="{% url 'services' %}?sort=category&direction=asc" class="dropdown-item">By Category</a>
-                <a href="{% url 'services' %}?category=featured_s,waxing_services,strip_wax,hot_wax,eye_services,lashes,brows,brow_lash,face_services,thread,facial,semi_perm,nail_services,hands,feet,remove,body_services,massage,deals"
-                    class="
-                    dropdown-item">All Services</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a href="#" class="font-weight-bold text-grey nav-link mr-5" id="services-link" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">All Products</a>
-            <div class="dropdown-menu border-0" aria-labelledby="services-link">
-                <a href="{% url 'products' %}?category=featured_p" class="dropdown-item">Featured</a>
+                <a href="{% url 'products' %}?category=featured_p,featured_s" class="dropdown-item">Featured</a>
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item">By Rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item">By Category</a>
-                <a href="{% url 'products' %}?category=featured_p,eye_products,face_products,nail_products,body_products,special_products"
+                <a href="{% url 'products' %}?category=featured_p,eye_products,face_products,nail_products,body_products,special_products,featured_s,waxing_services,strip_wax,hot_wax,eye_services,lashes,brows,brow_lash,face_services,thread,facial,semi_perm,nail_services,hands,feet,remove,body_services,massage,deals"
                     class="dropdown-item">All
-                    Products</a>
+                    Products & Services</a>
             </div>
         </li>
 

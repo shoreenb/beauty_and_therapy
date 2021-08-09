@@ -57,8 +57,7 @@ img {
     padding: 10px;
 }
 
-#products-btn,
-#services-btn {
+#products-btn {
     display: block;
     width: 50%;
 }
@@ -138,8 +137,7 @@ img {
     position: inherit;
 }
 
-#p_overlay-container,
-#s_overlay-container {
+#p_overlay-container {
     position: relative;
 }
 
@@ -153,8 +151,7 @@ a.category-badge>span.badge:hover {
     color: #fff !important;
 }
 
-#p_category-drop div.dropdown-menu.border-0.show,
-#s_category-drop div.dropdown-menu.border-0.show {
+#p_category-drop div.dropdown-menu.border-0.show {
     overflow: scroll;
     height: 200px;
 }

@@ -2,6 +2,7 @@
         "pk": 1,
         "model": "products.category",
         "fields": {
+            "category_name": "Products",
             "name": "waxing_products",
             "friendly_name": "Waxing Products"
         }
@@ -10,6 +11,7 @@
         "pk": 2,
         "model": "products.category",
         "fields": {
+            "category_name": "Products",
             "name": "eye_products",
             "friendly_name": "Eye Products"
         }
@@ -18,6 +20,7 @@
         "pk": 3,
         "model": "products.category",
         "fields": {
+            "category_name": "Products",
             "name": "face_products",
             "friendly_name": "Face Products"
         }
@@ -26,6 +29,7 @@
         "pk": 4,
         "model": "products.category",
         "fields": {
+            "category_name": "Products",
             "name": "nail_products",
             "friendly_name": "Nail Products"
         }
@@ -34,6 +38,7 @@
         "pk": 5,
         "model": "products.category",
         "fields": {
+            "category_name": "Products",
             "name": "body_products",
             "friendly_name": "Body Products"
         }
@@ -42,6 +47,7 @@
         "pk": 6,
         "model": "products.category",
         "fields": {
+            "category_name": "Products",
             "name": "special_products",
             "friendly_name": "Product Special Offers"
         }
@@ -50,6 +56,7 @@
         "pk": 7,
         "model": "products.category",
         "fields": {
+            "category_name": "Products",
             "name": "featured_p",
             "friendly_name": "Featured Products"
         }
@@ -58,6 +65,7 @@
         "pk": 8,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "waxing_services",
             "friendly_name": "Waxing Services"
         }
@@ -65,6 +73,7 @@
         "pk": 9,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "eye_services",
             "friendly_name": "Eye Treatment Services"
         }
@@ -72,6 +81,7 @@
         "pk": 10,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "face_services",
             "friendly_name": "Face Services"
         }
@@ -79,6 +89,7 @@
         "pk": 11,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "nail_services",
             "friendly_name": "Nail Services"
         }
@@ -86,6 +97,7 @@
         "pk": 12,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "body_services",
             "friendly_name": "Body Services"
         }
@@ -93,6 +105,7 @@
         "pk": 13,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "special_services",
             "friendly_name": "Service Special Offers"
         }
@@ -100,6 +113,7 @@
         "pk": 14,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "strip_wax",
             "friendly_name": "Warm Strip Wax"
         }
@@ -107,6 +121,7 @@
         "pk": 15,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "hot_wax",
             "friendly_name": "Hot Wax"
         }
@@ -114,6 +129,7 @@
         "pk": 16,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "brows",
             "friendly_name": "Eyebrows"
         }
@@ -121,6 +137,7 @@
         "pk": 17,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "lashes",
             "friendly_name": "Eyelashes"
         }
@@ -128,6 +145,7 @@
         "pk": 18,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "thread",
             "friendly_name": "Threading"
         }
@@ -135,6 +153,7 @@
         "pk": 19,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "facial",
             "friendly_name": "Facial"
         }
@@ -142,6 +161,7 @@
         "pk": 20,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "semi_perm",
             "friendly_name": "Semi-permanent Makeup"
         }
@@ -149,6 +169,7 @@
         "pk": 21,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "hands",
             "friendly_name": "Hands"
         }
@@ -156,6 +177,7 @@
         "pk": 22,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "feet",
             "friendly_name": "Feet"
         }
@@ -163,6 +185,7 @@
         "pk": 23,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "remove",
             "friendly_name": "Removal & Reapplication"
         }
@@ -170,6 +193,7 @@
         "pk": 24,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "massage",
             "friendly_name": "Massage"
         }
@@ -177,6 +201,7 @@
         "pk": 25,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "featured",
             "friendly_name": "Featured Services"
         }
@@ -184,6 +209,7 @@
         "pk": 26,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "deals",
             "friendly_name": "Deals"
         }
@@ -191,6 +217,7 @@
         "pk": 27,
         "model": "products.category",
         "fields": {
+            "category_name": "Services",
             "name": "brow_lash",
             "friendly_name": "Brows & Lashes"
         }

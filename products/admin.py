@@ -4,6 +4,7 @@ from .models import Product, Category
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
+        'category_name',
         'friendly_name',
         'name',
     )
@@ -17,7 +18,7 @@ class ProductAdmin(admin.ModelAdmin):
         'price',
         'rating',
         'image',
-        )
+    )
 
     ordering = ('sku',)
 

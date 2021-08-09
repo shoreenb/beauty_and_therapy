@@ -14,13 +14,13 @@
 <div class="overlay"></div>
 <div id="p_overlay-container" class="container-fluid">
     <div class="row">
-        <div class="col text-center mt-3">
-            <h2>Products</h2>
 
+        <div class="col text-center mt-3">
+            <h2>Products & Services</h2>
             <div id="p_category-drop" class="dropdown">
                 <a href="#" class="font-weight-bold text-black category-badge text-decoration-none"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
-                        class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">Product
+                        class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">Product & Service
                         Categories</span></a>
                 <div class="dropdown-menu border-0" aria-labelledby="categories-link">
                     {% for c in current_categories %}
@@ -67,7 +67,7 @@
                 <div class="col-12 col-md-6 order-md-first">
                     <p class="text-muted mt-3 text-center text-md-left">
                         {% if search_term or current_categories or current_sorting != 'None_None' %}
-                        <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
+                        <span class="small"><a href="{% url 'products' %}">All Products & Services</a> | </span>
                         {% endif %}
                         {{ products|length }} Products{% if search_term %} found for
                         <strong>"{{ search_term }}"</strong>{% endif %}

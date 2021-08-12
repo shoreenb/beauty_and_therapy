@@ -16,6 +16,7 @@ def all_products(request):
     query = None
     sort = None
     direction = None
+    heading = 'Products & Services'
 
     if request.GET:
         if 'sort' in request.GET:
@@ -36,6 +37,17 @@ def all_products(request):
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
+            if len(categories) == 1:
+                heading = categories[0].friendly_name
+            else:
+                for category in categories:
+                    if 'products' in category.name:
+                        heading = 'Products & Services'
+                        break
+                    else:
+                        if 'services' in category.name:
+                            heading = 'Services'
+
 
         if 'q' in request.GET:
             query = request.GET['q']
@@ -46,6 +58,9 @@ def all_products(request):
             queries = Q(
                 name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
+            
+
+
 
     current_sorting = f'{sort}_{direction}'
 
@@ -54,6 +69,7 @@ def all_products(request):
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
+        'heading': heading,
     }
 
     return render(

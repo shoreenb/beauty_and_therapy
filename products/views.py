@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
-from .models import Product, Category
+from .models import Product, Category, Option
 
 
 def all_products(request):
@@ -48,7 +48,6 @@ def all_products(request):
                         if 'services' in category.name:
                             heading = 'Services'
 
-
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -58,9 +57,6 @@ def all_products(request):
             queries = Q(
                 name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
-            
-
-
 
     current_sorting = f'{sort}_{direction}'
 
@@ -82,9 +78,15 @@ def product_detail(request, product_id):
     """
 
     product = get_object_or_404(Product, pk=product_id)
+    options = None
+
+    if 'option' in request.GET:
+        options = request.GET['option']
+        options = list(Option.objects.filter(name__in=options))
 
     context = {
         'product': product,
+        'options': options,
     }
 
     return render(request, 'products/product_detail.html', context)

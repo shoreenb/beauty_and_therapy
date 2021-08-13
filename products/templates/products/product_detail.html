@@ -55,11 +55,9 @@
                             <p><strong>Options:</strong></p>
                             <select name="product_option" id="id_product_option"
                                 class="form-control rounded-0 w-50 text-center">
-                                <option value="option_1" selected>option 1</option>
-                                <option value="option_2">option 2</option>
-                                <option value="option_3">option 3</option>
-                                <option value="option_4">option 4</option>
-                                <option value="option_5">option 5</option>
+                                {% for option in product.options.all %}
+                                <option value="{{ option.id }}">{{ option }}</option>
+                                {% endfor %}
                             </select>
                         </div>
                         {% endif %}

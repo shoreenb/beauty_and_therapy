@@ -182,6 +182,31 @@ select#id_product_option {
     display: inline;
 }
 
+/* -------------------------------- Bootstrap Toasts */
+
+.message-container {
+    position: fixed;
+    top: 172px !important;
+    right: 15px !important;
+    z-index: 999999999999 !important;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+.toast.show {
+    display: block;
+    opacity: 1;
+    z-index: 999999999999;
+    top: 72px;
+    position: absolute;
+    right: 15px;
+}
 
 /* -------------------------------- Media Queries */
 

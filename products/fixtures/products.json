@@ -650,7 +650,7 @@
             "sku": "bt6004230059",
             "name": "Nyx Duo Chromatic Illuminating Powder",
             "description": "This silky Powder, which is available in five glowing shades, blends like a dream and lights up your features for a fresh-faced look. The formulas light-catching pearls deliver a luminous finish that looks different from every angle. Brush this illuminating wonder along the highest points of the face—such as the cheekbones, bridge of the nose and Cupid’s bow.",
-            "has_options": "False",
+            "has_options": "True",
             "price": 14.00,
             "category": 3,
             "rating": 4.6,
@@ -845,7 +845,7 @@
             "sku": "bt6005071145",
             "name": "THE SAEM Cover Perfection Tip Concealer",
             "description": "This silky lightweight concealer creates the ultimate flawless natural base. Infused with oxygen complex and glacier water to keep skin moisturised along with a reflective powder to give skin a natural and healthy glow.",
-            "has_options": "False",
+            "has_options": "True",
             "price": 6.00,
             "category": 3,
             "rating": 3.3,
@@ -1173,9 +1173,9 @@
         "model": "products.product",
         "fields": {
             "sku": "bt6005810108",
-            "name": "Back Massage",
+            "name": "Back Massage - 30 minutes",
             "description": "The therapist performs a range of massage techniques to help ease your aches and pains",
-            "has_options": "True",
+            "has_options": "False",
             "price": 35.00,
             "category": 24,
             "rating": 4.7,
@@ -1202,8 +1202,8 @@
         "fields": {
             "sku": "bt6005840598",
             "name": "Semi Permanent Makeup",
-            "description": "Full information on request",
-            "has_options": "True",
+            "description": "Prices start at £195 - Full information on request",
+            "has_options": "False",
             "price": 195.00,
             "category": 20,
             "rating": 5.0,
@@ -1217,7 +1217,7 @@
             "sku": "bt6005940299",
             "name": "Course of 5 Anti-Cellulite Massage",
             "description": "A course of Anti Cellulite Massage treatments provided by our senior therapists to suit your needs. Receive your treatments as frequently as you like.",
-            "has_options": "True",
+            "has_options": "False",
             "price": 175.00,
             "category": 24,
             "rating": 5.0,
@@ -1243,9 +1243,9 @@
         "model": "products.product",
         "fields": {
             "sku": "bt6005851218",
-            "name": "Deep Tissue Massage",
-            "description": "Full information on request",
-            "has_options": "True",
+            "name": "Deep Tissue Massage - 30 minutes",
+            "description": "More information on request",
+            "has_options": "False",
             "price": 35.00,
             "category": 24,
             "rating": 4.1,
@@ -1299,9 +1299,9 @@
         "model": "products.product",
         "fields": {
             "sku": "bt6005870599",
-            "name": "Foot Massage",
+            "name": "Foot Massage - 30 minutes",
             "description": "A powerfully revitalising foot massage that focuses mainly on the energy lines of the lower legs, and reflex points of the feet in order to balance and harmonise the flow of energy around the body.",
-            "has_options": "True",
+            "has_options": "False",
             "price": 35.00,
             "category": 24,
             "rating": 4.4,
@@ -1313,9 +1313,9 @@
         "model": "products.product",
         "fields": {
             "sku": "bt6005870638",
-            "name": "Head Massage",
-            "description": "",
-            "has_options": "True",
+            "name": "Head Massage - 30 minutes",
+            "description": "More information on request",
+            "has_options": "False",
             "price": 35.00,
             "category": 24,
             "rating": 4.4,
@@ -1327,9 +1327,9 @@
         "model": "products.product",
         "fields": {
             "sku": "bt6005910565",
-            "name": "Hot Wax - Lip",
+            "name": "Hot Wax - Lip/Chin",
             "description": "",
-            "has_options": "False",
+            "has_options": "True",
             "price": 7.00,
             "category": 15,
             "rating": 4.3,
@@ -1357,7 +1357,7 @@
             "sku": "bt6005940242",
             "name": "Hot Wax - Leg",
             "description": "",
-            "has_options": "True",
+            "has_options": "False",
             "price": 18.00,
             "category": 15,
             "rating": 3.7,
@@ -1385,7 +1385,7 @@
             "sku": "bt6005941612",
             "name": "Removal",
             "description": "Soaks offs free with reapplication or £5 for removal",
-            "has_options": "True",
+            "has_options": "False",
             "price": 5.00,
             "category": 23,
             "rating": 5.0,
@@ -1397,9 +1397,9 @@
         "model": "products.product",
         "fields": {
             "sku": "bt6005980058",
-            "name": "Mud Facial",
+            "name": "Mud Facial - 30 minutes",
             "description": "A great 'pick me up' before or after a special occasion.",
-            "has_options": "True",
+            "has_options": "False",
             "price": 85.00,
             "category": 19,
             "rating": 5.0,
@@ -1427,7 +1427,7 @@
             "sku": "bt6006070077",
             "name": "Pampered Mum-To-Be Package",
             "description": "Gives special attention to the mum-to-be by helping to reduce labour times, blood pressure, anxiety and fluid retention. Package includes 30min Prescriptive Facial, 30min Pregnancy Back Massage, 30min Relaxing Spa Foot & Leg Pack and 30min Gel Manicure or Pedicure. Can only be provided from week 12 up to birth. Please note all parts of this package must be booked in the same appointment and therefore cannot be split.",
-            "has_options": "True",
+            "has_options": "False",
             "price": 96.00,
             "category": 12,
             "rating": 4.4,
@@ -1587,6 +1587,118 @@
             "rating": 4.9,
             "image_url": "",
             "image": "services/legsup.jpg"
+        }
+    }, {
+        "pk": 109,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6006241766",
+            "name": "Back Massage - 1 hour",
+            "description": "The therapist performs a range of massage techniques to help ease your aches and pains",
+            "has_options": "False",
+            "price": 50.00,
+            "category": 24,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "services/back-oil.jpg"
+        }
+    }, {
+        "pk": 110,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6006242155",
+            "name": "Back Massage - 1 hour 30 minutes",
+            "description": "The therapist performs a range of massage techniques to help ease your aches and pains",
+            "has_options": "False",
+            "price": 70.00,
+            "category": 24,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "services/back-oil.jpg"
+        }
+    }, {
+        "pk": 111,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6006242904",
+            "name": "Deep Tissue Massage - 1 hour",
+            "description": "More information on request",
+            "has_options": "False",
+            "price": 50.00,
+            "category": 24,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "services/deep-tissue.jpg"
+        }
+    }, {
+        "pk": 112,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6006242905",
+            "name": "Deep Tissue Massage - 1 hour 30 minutes",
+            "description": "More information on request",
+            "has_options": "False",
+            "price": 70.00,
+            "category": 24,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "services/deep-tissue.jpg"
+        }
+    }, {
+        "pk": 113,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6006243106",
+            "name": "Head Massage - 1 hour",
+            "description": "More information on request",
+            "has_options": "False",
+            "price": 50.00,
+            "category": 24,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "services/head-massage.jpg"
+        }
+    }, {
+        "pk": 114,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6006243276",
+            "name": "Head Massage - 1 hour 30 minutes",
+            "description": "More information on request",
+            "has_options": "False",
+            "price": 70.00,
+            "category": 24,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "services/head-massage.jpg"
+        }
+    }, {
+        "pk": 115,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6006280064",
+            "name": "Foot Massage - 1 hour",
+            "description": "A powerfully revitalising foot massage that focuses mainly on the energy lines of the lower legs, and reflex points of the feet in order to balance and harmonise the flow of energy around the body.",
+            "has_options": "False",
+            "price": 50.00,
+            "category": 24,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "services/foot-massage.jpg"
+        }
+    }, {
+        "pk": 116,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt6006280190",
+            "name": "Foot Massage - 1 hour 30 minutes",
+            "description": "A powerfully revitalising foot massage that focuses mainly on the energy lines of the lower legs, and reflex points of the feet in order to balance and harmonise the flow of energy around the body.",
+            "has_options": "False",
+            "price": 70.00,
+            "category": 24,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "services/foot-massage.jpg"
         }
     }
 ]

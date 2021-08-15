@@ -42,7 +42,8 @@
                         <td class="py-3">
                             <p class="my-0 text-center"><strong>{{ item.product.name }}</strong></p>
                             <p class="my-0 text-center">
-                                <strong>Options:</strong>{% if item.product.has_options %}{{ item.option|upper }}{% else %}N/A{% endif %}
+                                <strong>Options:</strong>{% if item.product.has_options %}
+                                {{ item.option }}{% else %}N/A{% endif %}
                             </p>
                             <p class="my-0 small text-muted text-center">SKU: {{ item.product.sku|upper }}</p>
                         </td>

@@ -56,7 +56,7 @@
                             <select name="product_option" id="id_product_option"
                                 class="form-control rounded-0 w-50 text-center">
                                 {% for option in product.options.all %}
-                                <option value="{{ option.id }}">{{ option }}</option>
+                                <option value="{{ option.name }}">{{ option }}</option>
                                 {% endfor %}
                             </select>
                         </div>

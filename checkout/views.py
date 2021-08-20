@@ -59,11 +59,11 @@ def checkout(request):
                     order.delete()
                     return redirect(reverse('view_bag'))
 
-                request.session['save_info'] = 'save-info' in request.POST
-                return redirect(reverse('checkout_success', args=[order.order_number]))
-            else:
-                messages.error(request,'There was an error with your form. \
-                    Please check your information')
+            request.session['save_info'] = 'save-info' in request.POST
+            return redirect(reverse('checkout_success', args=[order.order_number]))
+        else:
+            messages.error(request, 'There was an error with your form. \
+                Please check your information')
     else:
         bag = request.session.get('bag', {})
         if not bag:

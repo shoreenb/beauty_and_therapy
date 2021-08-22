@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block content %}
-<div class="overlay"></div>
+<div class="products-overlay"></div>
 <div id="p_overlay-container" class="container-fluid">
     <div class="row">
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
@@ -94,7 +94,8 @@
                                 </span>
                                 <span class="text-uppercase">Continue Shopping</span>
                             </a>
-                            <input type="submit" class="btn shop-btn rounded-0 text-uppercase mt-2" value="Add to Bag">
+                            <input type="submit" class="btn product-btn rounded-0 text-uppercase mt-2"
+                                value="Add to Bag">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         {% endwith %}

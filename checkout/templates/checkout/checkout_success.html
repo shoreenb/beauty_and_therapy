@@ -197,7 +197,15 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-12 col-lg-7 text-sm-center text-lg-right offset-lg-1">
+        <div class="col-12 col-lg-7 text-sm-center text-lg-right ">
+            {% if from_profile %}
+            <a href="{% url 'profile' %}" class="btn product-btn rounded-0 my-2">
+                <span class="icon mr-2">
+                    <i class="text-white fas fa-angle-left"></i>
+                </span>
+                <span class="text-uppercase">Back to Profile</span>
+            </a>
+            {% else %}
             <a href="{% url 'products' %}?category=featured_p,featured_s,deals,special_products"
                 class="btn btn-black rounded-0 my-2">
                 <span class="icon mr-2">
@@ -205,6 +213,7 @@
                 </span>
                 <span class="text-uppercase">Now check out the latest deals!</span>
             </a>
+            {% endif %}
         </div>
     </div>
 </div>

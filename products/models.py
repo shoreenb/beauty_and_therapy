@@ -34,7 +34,7 @@ class Product(models.Model):
     name = models.CharField(max_length=254)
     description = models.TextField()
     has_options = models.BooleanField(default=False, null=True, blank=True)
-    options = models.ManyToManyField(Option)
+    options = models.ManyToManyField(Option, blank=True)
     price = models.DecimalField(
         max_digits=6, decimal_places=2)
     rating = models.DecimalField(

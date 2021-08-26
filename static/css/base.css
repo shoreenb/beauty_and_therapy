@@ -191,6 +191,10 @@ a.category-badge>span.badge:hover {
     height: 200px;
 }
 
+div#base-user.dropdown-menu.border-0.show {
+    transform: translate3d(-50px, 71px, 0px);
+}
+
 .btt-button {
     height: 42px;
     width: 42px;

@@ -219,15 +219,16 @@ select#id_product_option {
 
 /* -------------------------------- Bootstrap Toasts */
 
-.message-container {
+/* .message-container {
     position: fixed;
-    top: 172px !important;
-    right: 15px !important;
+    top: 172px;
+    right: 15px;
     z-index: 999999999999 !important;
-}
+} */
 
 .custom-toast {
     overflow: visible;
+    /* position: absolute; */
 }
 
 .toast-capper {
@@ -235,11 +236,11 @@ select#id_product_option {
 }
 
 .toast.show {
-    display: block;
+    /* display: block; */
     opacity: 1;
     z-index: 999999999999;
     top: 72px;
-    position: absolute;
+    position: fixed;
     right: 15px;
 }
 

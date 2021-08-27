@@ -73,11 +73,15 @@
                         <p class="small mb-0">{{ item.quantity }} @ £{{ item.product.price }} each</p>
                     </div>
                 </div>
-                {% if item.category.category_name == 'services' %}
-                <a href="" class="btn btn-outline-black rounded-0 center offset-4" title="{{ order.order_number }}">
+
+                {% if 'Services' in item.product.category.category_name %}
+
+                <a href="{% url 'booking' %}" class="btn btn-outline-black rounded-0 center offset-4"
+                    title="{{ order.order_number }}">
                     <span class="logo-font">Book Your Services</span>
                 </a>
                 {% endif %}
+
                 {% endfor %}
 
                 <div class="row offset-md-1">

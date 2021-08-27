@@ -1,0 +1,63 @@
+[{
+        "pk": 1,
+        "model": "services.bookingtime",
+        "fields": {
+            "name": "09:00"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "services.bookingtime",
+        "fields": {
+            "name": "10:00"
+        }
+    }, {
+        "pk": 3,
+        "model": "services.bookingtime",
+        "fields": {
+            "name": "11:00"
+        }
+    }, {
+        "pk": 4,
+        "model": "services.bookingtime",
+        "fields": {
+            "name": "12:00"
+        }
+    }, {
+        "pk": 5,
+        "model": "services.bookingtime",
+        "fields": {
+            "name": "13:00"
+        }
+    }, {
+        "pk": 6,
+        "model": "services.bookingtime",
+        "fields": {
+            "name": "14:00"
+        }
+    }, {
+        "pk": 7,
+        "model": "services.bookingtime",
+        "fields": {
+            "name": "15:00"
+        }
+    }, {
+        "pk": 8,
+        "model": "services.bookingtime",
+        "fields": {
+            "name": "16:00"
+        }
+    }, {
+        "pk": 9,
+        "model": "services.bookingtime",
+        "fields": {
+            "name": "17:00"
+        }
+    }, {
+        "pk": 10,
+        "model": "services.bookingtime",
+        "fields": {
+            "name": "18:00"
+        }
+    }
+]

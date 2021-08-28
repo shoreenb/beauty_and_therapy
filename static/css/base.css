@@ -157,6 +157,7 @@ img {
 
 .products-overlay,
 .profile-overlay,
+.booking-overlay,
 .checkout-overlay {
     height: 100%;
     width: 100%;

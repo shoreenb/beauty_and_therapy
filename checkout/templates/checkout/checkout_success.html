@@ -75,13 +75,11 @@
                 </div>
 
                 {% if 'Services' in item.product.category.category_name %}
-
-                <a href="{% url 'booking' %}" class="btn btn-outline-black rounded-0 center offset-4"
+                <a href="{% url 'service' order.order_number %}" class="btn btn-outline-black rounded-0 center offset-4"
                     title="{{ order.order_number }}">
                     <span class="logo-font">Book Your Services</span>
                 </a>
                 {% endif %}
-
                 {% endfor %}
 
                 <div class="row offset-md-1">
@@ -98,7 +96,6 @@
                         <p class="mb-0">{{ order.full_name }}</p>
                     </div>
                 </div>
-
 
                 <div class="row">
                     <div class="col-12 col-md-4 offset-md-2">

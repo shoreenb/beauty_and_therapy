@@ -1,6 +1,6 @@
 from django.db import models
 from profiles.models import UserProfile
-from django_countries.fields import CountryField
+from checkout.models import Order
 
 
 class BookingTime(models.Model):
@@ -27,18 +27,15 @@ class Booking(models.Model):
     user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL,
                                      null=True, blank=True,
                                      related_name='bookings')
-    full_name = models.CharField(max_length=50, null=False, blank=False)
+    name = models.CharField(max_length=50, null=False, blank=False)
     email = models.CharField(max_length=254, null=False, blank=False)
     phone_number = models.CharField(max_length=20, null=False, blank=False)
-    country = CountryField(blank_label='Country *', null=False, blank=False)
-    postcode = models.CharField(max_length=20, null=False, blank=False)
-    town_or_city = models.CharField(max_length=40, null=False, blank=False)
-    street_address1 = models.CharField(max_length=80, null=False, blank=False)
-    street_address2 = models.CharField(max_length=80, null=True, blank=True)
-    county = models.CharField(max_length=80, null=True, blank=True)
     date = models.DateField()
     time = models.ForeignKey('BookingTime', null=True,
                              on_delete=models.SET_NULL)
+    order = models.ForeignKey(
+        Order, null=True, blank=True,
+        on_delete=models.CASCADE, related_name='booking_order')
 
     class Meta:
         verbose_name_plural = 'Bookings'

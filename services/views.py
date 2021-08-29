@@ -83,4 +83,3 @@ def booking_history(request, order_number, booking):
     }
 
     return render(request, template, context)
-

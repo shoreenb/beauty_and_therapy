@@ -1,0 +1,1 @@
+web: gunicorn beauty_and_therapy.wsgi:application

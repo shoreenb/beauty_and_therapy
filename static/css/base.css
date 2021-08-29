@@ -146,6 +146,10 @@ img {
     background: #000 !important;
 }
 
+div.row.bg-grey {
+    background: #6c6c6f !important;
+}
+
 .overlay {
     height: 100%;
     width: 100%;

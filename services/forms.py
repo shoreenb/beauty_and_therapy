@@ -1,6 +1,11 @@
 from django import forms
+from django.forms import ModelForm
 from .models import Booking, BookingTime
+import datetime
 
+
+class DateInput(forms.DateInput):
+    input_type = 'date'
 
 class BookingForm(forms.ModelForm):
     """
@@ -10,11 +15,14 @@ class BookingForm(forms.ModelForm):
         model = Booking
         fields = ('name', 'email', 'phone_number',
                   'date', 'time',)
+        widgets = {
+            'date': DateInput(),
+            'empty_label': "Time"
+        }
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         """ Date picker calendar for booking form """
-
         self.fields['date'].widget.attrs['class'] = 'datepicker'
 
         """ Placeholders for the fields """
@@ -22,7 +30,7 @@ class BookingForm(forms.ModelForm):
             'name': 'Full Name',
             'email': 'Email',
             'phone_number': 'Phone Number',
-            'date': '',
+            'date': 'Booking Date',
             'time': '',
         }
 

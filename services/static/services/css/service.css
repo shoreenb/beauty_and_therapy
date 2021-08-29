@@ -1,0 +1,5 @@
+.booking-history {
+    max-height: 416px;
+    /* height of booking form + submit button */
+    overflow-y: auto;
+}

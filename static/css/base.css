@@ -319,8 +319,16 @@ form.login {
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
+
+    img {
+        width: auto;
+        height: auto;
+        position: relative;
+        transform: translateY(0);
+    }
+
     .container {
-        max-width: 80%;
+        max-width: 98%;
     }
 
     form.login {
@@ -365,12 +373,16 @@ form.login {
 
     .btn.btn-outline-black.rounded-0,
     .btn.btn-black.rounded-0 {
-        padding: .375rem .375rem;
+        padding: .2rem .2rem;
+    }
+
+    div.mob-bag.col {
+        padding: 0;
     }
 
     .btn.btn-outline-black.rounded-0.btn-lg,
     .btn.btn-black.rounded-0.btn-lg {
-        padding: .375rem .375rem;
+        padding: .2rem .2rem;
         font-size: .75rem;
     }
 

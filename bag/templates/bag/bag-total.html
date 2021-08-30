@@ -1,0 +1,9 @@
+  <h5><strong>Bag Total: £{{ total|floatformat:2 }}</strong></h5>
+  <h5>Delivery: £{{ gift|floatformat:2 }}</h5>
+  <h4 class="mt-4"><strong>Grand Total £{{ grand_total|floatformat:2 }}</strong></h4>
+  {% if free_gift_delta > 0 %}
+  <p class="mb-1 text-danger">
+      No delivery/service charge if you spend just <strong>£{{ free_gift_delta }}</strong>
+      more!
+  </p>
+  {% endif %}

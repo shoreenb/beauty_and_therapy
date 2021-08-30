@@ -54,6 +54,11 @@ def service_success(request, order_number, booking_id):
         user_profile = get_object_or_404(UserProfile, user=request.user)
         booking = get_object_or_404(Booking, pk=booking_id)
 
+        profile = UserProfile.objects.get(user=request.user)
+        # Attach the user's booking to the order
+        booking.user_profile = profile
+        booking.save()
+
         messages.success(request, f'Your Booking has been confirmed! \
         Your booking number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
@@ -77,7 +82,6 @@ def booking_history(request, order_number, booking_id):
         'A confirmation email was sent on the order date.'
     ))
 
-    booking = Booking()
     template = 'services/service_success.html'
     context = {
         'order': order,

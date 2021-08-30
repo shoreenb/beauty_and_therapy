@@ -8,6 +8,7 @@ import datetime
 class DateInput(forms.DateInput):
     input_type = 'date'
 
+
 class BookingForm(forms.ModelForm):
     """
     Fields to be included in the booking form
@@ -15,7 +16,7 @@ class BookingForm(forms.ModelForm):
     class Meta:
         model = Booking
         fields = ('order', 'user_profile', 'name',
-        'email', 'phone_number', 'date', 'time',)
+                  'email', 'phone_number', 'date', 'time',)
 
         widgets = {
             'date': DateInput(),
@@ -47,5 +48,6 @@ class BookingForm(forms.ModelForm):
             else:
                 placeholder = placeholders[field]
             self.fields[field].widget.attrs['placeholder'] = placeholder
-            self.fields[field].widget.attrs['class'] = 'border-black rounded-0 booking-form'
+            self.fields[field].widget.attrs['class'] = \
+                'border-black rounded-0 booking-form'
             self.fields[field].label = False

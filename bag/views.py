@@ -1,4 +1,6 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
+from django.shortcuts import (
+    render, redirect, reverse, HttpResponse, get_object_or_404
+    )
 from django.contrib import messages
 
 from products.models import Product
@@ -26,20 +28,24 @@ def add_to_bag(request, item_id):
             if option in bag[item_id]['items_by_option'].keys():
                 bag[item_id]['items_by_option'][option] += quantity
                 messages.success(
-                    request, f'Updated {option.upper()} {product.name} quantity to {bag[item_id]["items_by_option"][option]}')
+                    request, f'Updated {option.upper()} {product.name} \
+                    quantity to {bag[item_id]["items_by_option"][option]}')
             else:
                 bag[item_id]['items_by_option'][option] = quantity
                 messages.success(
-                    request, f'Option {option.upper()} {product.name} has been added to your bag')
+                    request, f'Option {option.upper()} {product.name} \
+                    has been added to your bag')
         else:
             bag[item_id] = {'items_by_option': {option: quantity}}
             messages.success(
-                request, f'Option {option.upper()} {product.name} has been added to your bag')
+                request, f'Option {option.upper()} {product.name} \
+                has been added to your bag')
     else:
         if item_id in list(bag.keys()):
             bag[item_id] += quantity
             messages.success(
-                request, f'{product.name} quantity has been updated to {bag[item_id]}')
+                request, f'{product.name} \
+                quantity has been updated to {bag[item_id]}')
         else:
             bag[item_id] = quantity
             messages.success(
@@ -63,18 +69,21 @@ def adjust_bag(request, item_id):
         if quantity > 0:
             bag[item_id]['items_by_option'][option] = quantity
             messages.success(
-                request, f'Updated {product.name}{option.upper()} quantity to {bag[item_id]["items_by_option"][option]}')
+                request, f'Updated {product.name}{option.upper()} \
+                quantity to {bag[item_id]["items_by_option"][option]}')
         else:
             del bag[item_id]['items_by_option'][option]
             if not bag[item_id]['items_by_option']:
                 bag.pop(item_id)
                 messages.success(
-                    request, f'Option {option.upper()} {product.name} has been removed from your bag')
+                    request, f'Option {option.upper()} {product.name} \
+                    has been removed from your bag')
     else:
         if quantity > 0:
             bag[item_id] = quantity
             messages.success(
-                request, f'{product.name} quantity has been updated to {bag[item_id]}')
+                request, f'{product.name} \
+                quantity has been updated to {bag[item_id]}')
         else:
             bag.pop(item_id)
             messages.success(
@@ -99,7 +108,8 @@ def remove_from_bag(request, item_id):
             if not bag[item_id]['items_by_option']:
                 bag.pop(item_id)
                 messages.success(
-                    request, f'Option {option.upper()} {product.name} has been removed from your bag')
+                    request, f'Option {option.upper()} {product.name} \
+                    has been removed from your bag')
         else:
             bag.pop(item_id)
             messages.success(

@@ -391,18 +391,7 @@ form.login {
         padding: .25rem .5rem !important;
     }
 
-    img.card-img-top.img-fluid {
-        width: 60%;
-    }
 }
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-    img.card-img-top.img-fluid {
-        width: 50%;
-    }
-}
-
 
 /* Fixed top navbar only on medium and up */
 @media (min-width: 992px) {

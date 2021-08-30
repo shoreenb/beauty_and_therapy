@@ -1,10 +1,12 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from .models import Booking, UserProfile
+from django.contrib.auth.decorators import login_required
 from checkout.models import Order
 from django.contrib import messages
 from .forms import BookingForm
 
 
+@login_required
 def service(request, order_number):
     """
     Send service booking form

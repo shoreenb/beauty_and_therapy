@@ -3,12 +3,22 @@ html {
 }
 
 body {
-    background: url('/media/hot-stones.jpg') no-repeat center center fixed;
-    background-size: cover;
     height: 100%;
     color: #6c6c6f;
     background-color: #fff;
     font-family: 'Noto Serif', serif;
+}
+
+#container-body {
+    background: url('/media/hot-stones.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: #6c6c6f;
+    background-color: #fff;
+    font-family: 'Noto Serif', serif;
+    padding: 0;
+    margin: 0;
 }
 
 /* from Bulma */
@@ -307,8 +317,8 @@ form.login {
 
 /* -------------------------------- Media Queries */
 
-/* Medium devices (tablets, 768px and up) */
-@media (max-width: 992px) {
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
     .container {
         max-width: 80%;
     }
@@ -329,13 +339,57 @@ form.login {
 
     #products-btn {
         width: 150px;
+        font-size: .9rem;
+    }
+
+    #container-body {
+        background: url('/media/services/mud.jpg') no-repeat center center;
+        background-size: cover;
+        height: 100%;
+        color: #6c6c6f;
+        background-color: #fff;
+        font-family: 'Noto Serif', serif;
+    }
+
+    #incentive-banner h4 {
+        font-size: .85rem;
+    }
+
+    .nav-link i .fa-lg {
         font-size: 1rem;
     }
 
-    #
+    .navbar-toggler {
+        padding: .6rem .6rem;
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-0.btn-lg,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+
+    .increment-qty,
+    .decrement-qty {
+        padding: .25rem .5rem !important;
+    }
+
+    img.card-img-top.img-fluid {
+        width: 60%;
+    }
 }
 
-
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    img.card-img-top.img-fluid {
+        width: 50%;
+    }
+}
 
 
 /* Fixed top navbar only on medium and up */
@@ -355,6 +409,18 @@ form.login {
     .pt-lg-2,
     .py-lg-2 {
         padding-top: 0 !important;
+    }
+
+    #container-body {
+        background: url('/media/hot-stones.jpg') no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        color: #6c6c6f;
+        background-color: #fff;
+        font-family: 'Noto Serif', serif;
+        padding: 0;
+        margin: 0;
     }
 }
 

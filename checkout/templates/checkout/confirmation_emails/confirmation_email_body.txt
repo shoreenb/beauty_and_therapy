@@ -15,7 +15,7 @@ Your product order will be shipped to:
 {{ order.postcode }}
 {{ order.country }}
 
-If you have purchased a service, please complete the  booking form  and once completed, you will receive a separate confirmation email of your appointment request.
+If you have purchased a service, please complete the booking form and once completed, you will receive a separate confirmation email of your appointment request.
 
 If you have any questions, please contact us at {{ contact_email }}.
 

@@ -6,6 +6,8 @@
             <p class="my-0">Search</p>
         </div>
     </a>
+</li>
+<li>
     <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0" aria-labelledby="mobile-search">
         <form class="form" method="GET" action="{% url 'products' %}">
             <div class="input-group w-100">
@@ -29,7 +31,9 @@
             <p class="mob-nav-text my-0">My Account</p>
         </div>
     </a>
-    <div id="user" class="dropdown-menu border-0" aria-labelledby="user-options">
+</li>
+<li>
+    <div id="user" class="dropdown-menu border-0" aria-labelledby="account-options">
         {% if request.user.is_authenticated %}
         {% if request.user.is_superuser %}
         <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>

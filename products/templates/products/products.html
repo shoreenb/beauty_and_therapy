@@ -74,9 +74,10 @@
                 </div>
             </div>
             <div>
-                {% if search_term %} found for
-                <strong>"{{ search_term }}"</strong>{% else %}<img id="coming-soon-img" class="ml-auto mr-auto"
-                    src="/media/coming-soon.png" alt="Coming Soon">{% endif %}
+                {% if products.count == 0 %}
+                <img id="coming-soon-img" class="ml-auto mr-auto" src="{{ MEDIA_URL }}coming-soon.png"
+                    alt="Coming Soon">
+                {% endif %}
             </div>
             <div class="row">
                 {% for product in products %}

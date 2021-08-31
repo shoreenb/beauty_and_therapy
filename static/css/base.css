@@ -234,16 +234,8 @@ select#id_product_option {
 
 /* -------------------------------- Bootstrap Toasts */
 
-/* .message-container {
-    position: fixed;
-    top: 172px;
-    right: 15px;
-    z-index: 999999999999 !important;
-} */
-
 .custom-toast {
     overflow: visible;
-    /* position: absolute; */
 }
 
 .toast-capper {
@@ -251,7 +243,6 @@ select#id_product_option {
 }
 
 .toast.show {
-    /* display: block; */
     opacity: 1;
     z-index: 999999999999;
     top: 72px;
@@ -313,6 +304,12 @@ select#id_product_option {
 form.login {
     width: 60%;
     display: inline-block;
+}
+
+#coming-soon-img {
+    display: block;
+    transform: translateY(0);
+    margin: 0;
 }
 
 /* -------------------------------- Media Queries */

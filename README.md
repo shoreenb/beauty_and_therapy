@@ -407,7 +407,7 @@ These wireframes were created using [Balsamiq](balsamiq.com) during the design a
    - <a name="libraries">Libraries</a>
      - [JQuery](https://jquery.com/) to simplify DOM manipulation.
      - [Bootstrap](https://www.bootstrapcdn.com/) to simplify the structure of the website and make the website responsive easily.
-     - [FontAwesome](https://www.bootstrapcdn.com/fontawesome/) to provide icons for The House of Mouse webshop.
+     - [FontAwesome](https://www.bootstrapcdn.com/fontawesome/) to provide icons for The Beauty and Therapy webshop.
      - [Google Fonts](https://fonts.google.com/) to style the website fonts.
    - <a name="languages">Languages</a>
      - This project uses HTML, CSS, JavaScript and Python programming languages.

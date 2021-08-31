@@ -342,7 +342,7 @@ The following steps were repeated on physical devices available to the developer
 
    
 
-   ![Date](media/readme/features/date.png)
+   ![Date](media/readme/screenshots/date.png)
 
    
 
@@ -350,7 +350,7 @@ The following steps were repeated on physical devices available to the developer
 
    
 
-   ![Time](media/readme/features/time.png)
+   ![Time](media/readme/screenshots/time.png)
 
 
 

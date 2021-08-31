@@ -34,7 +34,7 @@
         </div>
         <div class="col-12 col-lg-6">
             <p class="text-muted text-center">Order History</p>
-            <table class="table-sm table-borderless">
+            <table class="table-sm table-borderless mb-5">
                 <thead>
                     <tr>
                         <th>Order Number</th>
@@ -66,48 +66,9 @@
                     {% endfor %}
                 </tbody>
             </table>
-            <hr>
+            {% endblock %}
 
-            <p class="text-muted text-center">Bookings</p>
-            <table class="table-sm table-borderless">
-                <thead>
-                    <tr>
-                        <th>Order Number</th>
-                        <th>Date</th>
-                        <th>Items</th>
-                        <th>Booking Date</th>
-                        <th>Booking Time</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for booking in bookings %}
-                    <tr>
-                        <td>
-                            <a href="{% url 'booking_history' booking_order.order_number %}"
-                                title="{{ booking_order.order_number }}">{{ order.order_number|truncatechars:6 }}</a>
-                        </td>
-                        <td>{{ order.date }}</td>
-                        <td>
-                            <ul class="list-unstyled">
-                                {% for item in order.lineitems.all %}
-                                <li class="small">
-                                    {{ item.product.name }}
-                                    x{{ item.quantity }}
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </td>
-                        <td>{{ booking_order.date}}</td>
-                        <td>{{ booking_order.time}}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
-    </div>
-    {% endblock %}
-
-    {% block postloadjs %}
-    {{ block.super }}
-    <script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
-    {% endblock %}
+            {% block postloadjs %}
+            {{ block.super }}
+            <script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
+            {% endblock %}

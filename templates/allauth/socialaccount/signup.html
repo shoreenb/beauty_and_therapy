@@ -13,7 +13,7 @@
   {{provider_name}} account to login to
   {{site_name}}. As a final step, please complete the following form:{% endblocktrans %}</p>
 
-<form class="signup" id="signup_form" method="post" action="{% url 'socialaccount_signup' %}">
+<form class="signup ml-auto mr-auto" id="signup_form" method="post" action="{% url 'socialaccount_signup' %}">
   {% csrf_token %}
   {{ form|crispy }}
   {% if redirect_field_value %}

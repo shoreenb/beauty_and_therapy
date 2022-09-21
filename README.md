@@ -2,7 +2,7 @@
 
 ![Mock Up](media/readme/screenshots/mock-up.png)
 
-The [Beauty and Therapy Logo](https://beauty-and-therapy.herokuapp.com/) online  web shop is designed to offer beauty services, products, therapies and subscription based treatments. This website is designed to provide a responsive, intuitive and effortless online shopping experience for visitors who wish to view their treatment schedule, book a treatment or purchase a related product all in one place.
+The [Beauty and Therapy](https://beauty-and-therapy.herokuapp.com/) online  web shop is designed to offer beauty services, products, therapies and subscription based treatments. This website is designed to provide a responsive, intuitive and effortless online shopping experience for visitors who wish to view their treatment schedule, book a treatment or purchase a related product all in one place.
 
 ## [Table of Contents](#contents)
 
